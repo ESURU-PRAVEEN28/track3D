@@ -1,0 +1,611 @@
+ConstructionType,ConstructionName,CementQuality,CementPrice,BrickQuality,BrickPrice,SandQuality,SandPrice,IronQuality,IronPrice,EnvironmentalCondition,Seller,Price
+Roads, Marine Drive, High,280, High,20, High,440,Medium,46000, tightsoil, Birla Cement,3500000
+Roads, Rajpath, Low,320, Low,50, Low,240, Low,40000,loosesoil, UltraTech Cement Ltd,2930000
+Roads, Anna Salai, Low,490, Low,50,High,470, High,36000, tightsoil,JSW Cement Ltd,4560000
+Roads, Park Street,Medium,230, Medium,50, Medium,350, Medium,20000, humidity, Asian Paints (for paints & coatings),3410000
+Roads, M.G. Road, Low,200, Low,30, Medium,360, Medium,48000, loosesoil, LafargeHolcim India,2330000
+Roads, Brigade Road, Low,390, Low,40, High,460,Low,20000, tightsoil, UltraTech Cement Ltd,4030000
+Roads, Carter Road, High,280,Low,50, Low,460, High,48000, heavyrain, Nerolac Paints,2180000
+Roads,Jawaharlal Nehru Road, Medium,210, Medium,50, High,310, Medium,24000,humidity, Ramco Cements Ltd,4920000
+Roads, C.G. Road, Low,220, Low,20,Medium,410, Medium,34000, windy,Berger Paints India Ltd,2650000
+Roads, Outer Ring Road, Low,490, High,50,Low,330, Low,42000, loosesoil,Supreme Industries (for pipes & fittings),3910000
+Roads,Sarjapur Road, Medium,380, Medium,30, High,480, Medium,43000, loosesoil, Shree Cement Ltd,3250000
+Roads, Camac Street, Low,330, High,20, High,250, High,24000, loosesoil, Jindal Steel & Power Ltd,2700000
+Roads, Banjara Hills Road No. 1, Medium,440, Low,40, Medium,500, Medium,43000,Hightemp, UltraTech Cement Ltd,4330000
+Roads, Juhu Tara Road, High,200, High,50, High,470, High,25000, Hightemp, Dalmia Cement (Bharat) Ltd,2560000
+Roads, New Market Road, Medium,440, Medium,20, Medium,500, Low,20000, loosesoil, Berger Paints India Ltd,2970000
+Roads, Connaught Place Inner Circle, Medium,250, Low,20, Medium,270, Low,48000,windy, ACC Limited,2330000
+Roads, F.C. Road, Low,300, Medium,50, High,480, Medium,42000, tightsoil, Supreme Industries (for pipes & fittings),3710000
+Roads, Kasturba Road, Low,500, Low,50,Medium,430, Medium,44000, humidity,ACC Limited,2860000
+Roads, Ashram Road, High,430, Low,40, Medium,420, Medium,48000, tightsoil, Asian Paints (for paints & coatings),4770000
+Roads, Gariahat Road,High,500, Low,50, High,380, Medium,46000, heavyrain, Ambuja Cements Ltd,3820000
+Roads, Linking Road, High,210, Medium,20, Low,360,High,50000, humidity, JSW Cement Ltd,4880000
+Roads, Pali Hill Road, Low,340, Low,40, High,500, Low,47000, humidity, Dalmia Cement (Bharat) Ltd,2320000
+Roads, Vittal Mallya Road, High,220, Medium,50, High,350, Medium,46000, humidity, Shree Cement Ltd,2350000
+Roads, VIP Road, Medium,340, Low,30, Low,500, Low,26000, tightsoil, Tata Steel Limited,2940000
+Roads,Breach Candy Road, High,260, Low,30, High,490, Low,31000,tightsoil, Nerolac Paints,3910000
+Roads, Commercial Street, High,420, Low,50, High,490, Low,40000, loosesoil, Ambuja Cements Ltd,2840000
+Roads, Infantry Road, Low,230, High,20, High,420, Low,47000, windy, LafargeHolcim India,2540000
+Roads, Tolstoy Road, Medium,410,High,40, High,400, Low,46000, tightsoil, Supreme Industries (for pipes & fittings),4950000
+Roads, Burdwan Road, Medium,250, Medium,20, Medium,280, Low,21000, windy, Ramco Cements Ltd,4840000
+Roads, Elliot?s Beach Road, Low,410, Low,40, Medium,370,Low,29000, Hightemp, ACC Limited,2370000
+Highways, National Highway 44 (NH 44), Medium,270, High,20, Low,220,High,45000, Hightemp, ACC Limited,2600000
+Highways, National Highway 48 (NH 48), High,300, Medium,50, Medium,360,Medium,40000, humidity, Birla Cement,4620000
+Highways, National Highway 16 (NH 16), Medium,370, High,30, High,220,High,31000, heavyrain, Shree Cement Ltd,4430000
+Highways, National Highway 19 (NH 19), Medium,330, Low,30, High,320, High,22000, windy, Hindware (HSIL Limited),3240000
+Highways, Mumbai-Pune Expressway, Medium,460, Low,30, Medium,320, Low,22000, humidity, Berger Paints India Ltd,3330000
+Highways, Yamuna Expressway, Medium,280,Medium,20, Low,470, Low,50000, heavyrain, Tata Steel Limited,4290000
+Highways, Delhi?Mumbai Expressway, High,230,Medium,30, Medium,380, High,28000, heavyrain, LafargeHolcim India,3120000
+Highways,Eastern Peripheral Expressway, High,350, Medium,20, Medium,410, Medium,24000,tightsoil, Ambuja Cements Ltd,4540000
+Highways, Western Peripheral Expressway, Low,340, Medium,20, Low,490, High,32000, windy, Shree Cement Ltd,4320000
+Highways, Golden Quadrilateral Highway, Medium,230, Low,30,Low,260, High,50000, Hightemp,ACC Limited,3850000
+Highways, Bengaluru-Chennai Expressway, Medium,310, Low,40, High,200, Low,29000, heavyrain, Hindware (HSIL Limited),4770000
+Highways, Hyderabad-Bangalore Expressway, High,480, High,20, Medium,310, Medium,39000, tightsoil, Ramco Cements Ltd,3840000
+Highways, Ahmedabad-Vadodara Expressway, Low,410, High,40, Medium,480, Medium,23000, loosesoil, Berger Paints India Ltd,4300000
+Highways, Chennai-Kolkata Highway, Low,310, Medium,20, Low,330, Low,37000,windy, Supreme Industries (for pipes & fittings),3610000
+Highways, North-South Corridor Highway, Low,230,Low,30, Medium,500, Low,39000, heavyrain, Nerolac Paints,3850000
+Highways,East-West Corridor Highway, Low,350, Medium,30, Medium,440, Low,29000,heavyrain, Ramco Cements Ltd,3930000
+Highways, Lucknow-Agra Expressway, High,200, High,20,Low,330, Low,35000, windy,Shree Cement Ltd,2140000
+Highways, Hyderabad-Vijayawada Expressway,Low,290, Medium,20, Low,250, Low,36000, Hightemp, JSW Cement Ltd,2560000
+Highways, Mumbai-Goa Highway, High,340, High,30, Medium,430,High,30000, windy, LafargeHolcim India,4150000
+Highways, Delhi-Meerut Expressway, Medium,420, High,40, Medium,420, Medium,21000, heavyrain, JSW Cement Ltd,2000000
+Highways,Kanyakumari-Bangalore Highway, Medium,270, High,30, Medium,390, Low,40000, Hightemp, Vizag Steel (RINL - Rashtriya Ispat Nigam Ltd),4670000
+Highways, Ganga Expressway, High,350,Low,20, Low,320, High,36000, humidity, ACC Limited,4780000
+Highways,Mumbai-Nashik Expressway, Low,430, High,50, High,340, Medium,40000, humidity, UltraTech Cement Ltd,2450000
+Highways, Chennai-Salem Expressway, Low,340, Medium,40, Low,310, Low,31000, tightsoil, ACC Limited,3450000
+Highways, Ahmedabad-Dholera Expressway, Medium,400, High,40, Medium,210,Low,48000, Hightemp, JSW Cement Ltd,4010000
+Highways, Nagpur-Hyderabad Highway, Low,330,High,40, Low,390, Low,45000, tightsoil, Ramco Cements Ltd,4170000
+Highways, Pune-Bengaluru Highway, Low,240, High,20, Low,270, Low,31000,windy, Asian Paints (for paints & coatings),2390000
+Highways, Jaipur-Kishangarh Expressway, Medium,400, High,20, High,430, Low,42000, Hightemp, Ambuja Cements Ltd,3690000
+Highways,Kolkata-Durgapur Expressway, Medium,240, Medium,20, High,480, High,44000, heavyrain, Supreme Industries (for pipes & fittings),3840000
+Highways, Delhi-Jaipur Expressway, High,240, Low,50, High,250, High,43000,tightsoil, UltraTech Cement Ltd,3890000
+Bridges, Howrah Bridge, Medium,480, Medium,40,Medium,200, High,25000, Hightemp,Ramco Cements Ltd,4540000
+Bridges, Bandra-Worli Sea Link, Medium,290, High,20, Medium,360, Low,34000, Hightemp, Ramco Cements Ltd,4210000
+Bridges, Mahatma Gandhi Setu,Medium,220, Medium,30, High,500, Low,24000, Hightemp, ACC Limited,4220000
+Bridges, Vidyasagar Setu, Low,360, High,20, Low,460, High,27000, tightsoil, Hindware (HSIL Limited),3130000
+Bridges, Godavari Bridge, High,240, Medium,20, Medium,290, High,36000, tightsoil, UltraTech Cement Ltd,4080000
+Bridges,Pamban Bridge, High,490, Low,50, High,280, High,37000, loosesoil, Cera Sanitaryware Ltd,2480000
+Bridges, Krishna Raja Sagar Bridge, Medium,480, High,30, Medium,360, Low,27000, humidity, LafargeHolcim India,4220000
+Bridges, Coronation Bridge,Low,330, Low,30, High,490, Medium,46000, heavyrain, SAIL (Steel Authority of India Ltd),3670000
+Bridges, Dhola-Sadiya Bridge, High,320, High,20, Medium,270, High,42000, loosesoil, Jindal Steel & Power Ltd,4290000
+Bridges, Bogibeel Bridge, Medium,460, High,30, High,360, Low,42000, loosesoil, Berger Paints India Ltd,3390000
+Bridges, Farakka Barrage,Low,420, Medium,40, High,350, Low,28000, loosesoil, Ramco Cements Ltd,3950000
+Bridges, Vashi Bridge, Low,240, Low,50, Low,230,High,43000, heavyrain, UltraTech Cement Ltd,2150000
+Bridges, Vikramshila Setu, High,370,High,40, High,470, Medium,41000, heavyrain, Orient Cement Ltd,2900000
+Bridges, Nivedita Bridge, Low,430, Low,20, Low,330, High,48000,humidity, Shree Cement Ltd,2440000
+Bridges, Koilwar Bridge, High,330, Low,40,Low,390, Medium,24000, tightsoil,Ramco Cements Ltd,3800000
+Bridges, Mahanadi Bridge,Low,490, High,40, High,200, High,46000, tightsoil, ACC Limited,2940000
+Bridges, Korthi-Kolhar Bridge, Medium,370, High,20, High,410, Low,38000, loosesoil, JSW Cement Ltd,3890000
+Bridges, Zuari Bridge, Low,370, Low,30, Low,270, Low,37000, Hightemp, Dalmia Cement (Bharat) Ltd,2810000
+Bridges, Narmada Bridge, Low,340, Medium,40, Low,490, Medium,45000,heavyrain, ACC Limited,4550000
+Bridges, Signature Bridge, Medium,290, Medium,40, High,330, High,45000, loosesoil, Shree Cement Ltd,2460000
+Bridges, Munger Ganga Bridge,Low,470, Medium,50, Low,410, Low,41000, heavyrain, Ambuja Cements Ltd,4430000
+Bridges, Kanaka Durga Varadhi, Medium,260, Medium,50, Low,330, Medium,29000, heavyrain, Supreme Industries (for pipes & fittings),3290000
+Bridges, Yamuna Bridge,Medium,430, Medium,40, Low,250, Low,36000, loosesoil, Ramco Cements Ltd,2470000
+Bridges, Godavari Fourth Bridge, Low,450, Low,30, Low,240, Medium,29000, humidity, Cera Sanitaryware Ltd,2360000
+Bridges, Bhupen Hazarika Setu, Low,420, High,20, Low,440,High,36000, tightsoil, Orient Cement Ltd,3680000
+Bridges, Chenab Rail Bridge, Low,390, Medium,50, Low,480, High,28000, heavyrain, Jindal Steel & Power Ltd,4110000
+Bridges, Kachchi Dargah-Bidupur Bridge, Medium,400, Low,20, High,490,Medium,43000, tightsoil, Berger Paints India Ltd,3310000
+Bridges, Athirappilly Bridge, Medium,200, High,50, High,300, High,50000, humidity, Berger Paints India Ltd,4040000
+Bridges, Sharavathi Bridge, High,280,Low,30, Low,460, Low,48000, windy, Shree Cement Ltd,2410000
+Bridges, New Jubilee Bridge, Low,290, Low,20, Low,220, High,24000, humidity, Orient Cement Ltd,3770000
+Airports,Indira Gandhi International Airport, High,250, Medium,50, High,240, High,46000, windy, Jindal Steel & Power Ltd,3250000
+Airports, Chhatrapati Shivaji Maharaj International Airport, High,440, High,50, Medium,220,Medium,30000, Hightemp, SAIL (Steel Authority of India Ltd),3120000
+Airports, Kempegowda International Airport,Low,360, Medium,40, Low,460, Medium,27000, heavyrain, Asian Paints (for paints & coatings),3070000
+Airports, Chennai International Airport, Medium,240, Medium,30,Medium,480, Medium,41000, tightsoil,Vizag Steel (RINL - Rashtriya Ispat Nigam Ltd),2680000
+Airports, Netaji Subhas Chandra Bose International Airport, Low,330, Medium,50, Low,490, Low,22000, loosesoil, Shree Cement Ltd,4570000
+Airports, Rajiv Gandhi International Airport, High,330, High,40, High,320, High,27000, Hightemp, SAIL (Steel Authority of India Ltd),3010000
+Airports, Cochin International Airport, High,450, Medium,50, High,230, High,20000, Hightemp, Supreme Industries (for pipes & fittings),4360000
+Airports, Pune International Airport, High,420, High,30, High,420, High,41000, Hightemp, Hindware (HSIL Limited),3010000
+Airports, Goa International Airport, High,400, Low,20,Low,350, Low,24000, heavyrain,Dalmia Cement (Bharat) Ltd,4660000
+Airports, Sardar Vallabhbhai Patel International Airport, Low,420, High,40, Medium,210, Medium,25000,windy, LafargeHolcim India,2430000
+Airports, Trivandrum International Airport, High,350, High,40,Low,370, Medium,30000, loosesoil,Jindal Steel & Power Ltd,3020000
+Airports, Jaipur International Airport, Medium,330, Low,20, Low,440, High,38000, humidity, Dalmia Cement (Bharat) Ltd,2400000
+Airports, Chaudhary Charan Singh International Airport, Low,360, High,30, Medium,240, Low,24000, tightsoil, Nerolac Paints,2470000
+Airports, Biju Patnaik International Airport, Low,440, Low,30, High,360, Medium,29000,loosesoil, Hindware (HSIL Limited),3590000
+Airports, Lokpriya Gopinath Bordoloi International Airport, Medium,210, Medium,30, Low,480, Low,43000, loosesoil, Ambuja Cements Ltd,2300000
+Airports,Madurai Airport, Low,300, Medium,40, Low,200, Low,28000, tightsoil, Nerolac Paints,4890000
+Airports, Amritsar International Airport, Medium,270, Medium,50, Low,490, High,25000, heavyrain, Dalmia Cement (Bharat) Ltd,2000000
+Airports, Visakhapatnam International Airport, Low,430, Low,20, Low,230, Medium,41000, windy, Orient Cement Ltd,3450000
+Airports, Bagdogra International Airport,High,430, Low,50, High,290, Low,38000, loosesoil, Asian Paints (for paints & coatings),4210000
+Airports, Coimbatore International Airport, Low,490, Medium,20,Low,280, High,45000, windy,Birla Cement,3980000
+Airports, Bhubaneswar Airport, High,200, High,30, High,420, Medium,30000, windy, Hindware (HSIL Limited),3200000
+Airports, Kannur International Airport, Medium,310, High,20, Medium,450,Medium,42000, windy, JSW Cement Ltd,4580000
+Airports, Srinagar International Airport, Low,290, Medium,40, Low,230, High,49000, windy, Birla Cement,3430000
+Airports, Vadodara Airport, Medium,340, High,20, Low,440, Medium,38000,humidity, Cera Sanitaryware Ltd,4200000
+Airports, Mangalore International Airport, High,400, Low,50, High,380, Medium,44000, heavyrain, LafargeHolcim India,4530000
+Airports, Raipur Airport,Low,440, High,50, Low,490, High,40000, windy, Supreme Industries (for pipes & fittings),4160000
+Airports, Gaya International Airport, Low,350, High,50,Medium,460, High,20000, heavyrain,Dalmia Cement (Bharat) Ltd,2880000
+Airports, Agartala Airport, High,360, Low,30, Medium,380, Medium,50000, tightsoil, Supreme Industries (for pipes & fittings),4520000
+Airports, Dehradun Airport, High,470, Medium,20,Medium,230, High,20000, windy,Ramco Cements Ltd,4120000
+Airports, Patna Airport,Low,410, High,20, Low,330, Low,24000, Hightemp, Ambuja Cements Ltd,3970000
+Residential Building, The 42, Medium,460, High,40, High,390, Low,50000, tightsoil, Cera Sanitaryware Ltd,2390000
+Residential Building, Omkar 1973, High,460, Medium,30, Low,350,Low,20000, windy, UltraTech Cement Ltd,2740000
+Residential Building, Palais Royale, High,210, Low,50, Low,300, Medium,44000, loosesoil, Dalmia Cement (Bharat) Ltd,2010000
+Residential Building, Antilia, High,480,High,30, Medium,490, Low,50000, loosesoil, Dalmia Cement (Bharat) Ltd,3200000
+Residential Building, Lodha The Park, Medium,460, Low,40, Low,260, Medium,30000, heavyrain, Hindware (HSIL Limited),4280000
+Residential Building, World One, High,480,High,40, High,230, Low,23000, tightsoil, Berger Paints India Ltd,4230000
+Residential Building, The Crest, High,230,Low,30, Medium,250, Medium,23000, Hightemp, Ambuja Cements Ltd,3540000
+Residential Building, The Address, High,480, Low,40, High,350, Low,50000, tightsoil, Birla Cement,4760000
+Residential Building,Raheja Revanta, Low,480, Low,20, Medium,260, Low,32000, loosesoil, JSW Cement Ltd,2540000
+Residential Building, Atmosphere Tower, Low,380, Medium,30,Low,410, Low,38000, tightsoil,Cera Sanitaryware Ltd,2700000
+Residential Building, Lodha Altamount, Low,430, Low,20, Low,400, Medium,36000, heavyrain, Ramco Cements Ltd,3830000
+Residential Building, Imperial Heights,High,270, Medium,30, Low,270, High,48000, windy, Cera Sanitaryware Ltd,3900000
+Residential Building, Omkar Alta Monte,High,420, High,30, High,270, Low,39000, windy, ACC Limited,3850000
+Residential Building, Sky Belvedere, Medium,210, High,30, Medium,200,Low,42000, tightsoil, Shree Cement Ltd,2750000
+Residential Building, Marathon Futurex, Medium,420, Medium,50, Medium,340, High,39000, loosesoil, Dalmia Cement (Bharat) Ltd,2370000
+Residential Building, Supernova Spira, Medium,310, High,30, High,400, High,27000, humidity, Hindware (HSIL Limited),2580000
+Residential Building, Kalpataru Avana, Low,230,Low,30, High,290, High,30000, tightsoil, Supreme Industries (for pipes & fittings),2730000
+Residential Building, Ekta Tripolis, High,220, Medium,50, Low,320,High,30000, loosesoil, SAIL (Steel Authority of India Ltd),2420000
+Residential Building, L&T Crescent Bay, Medium,270, High,50, High,340, Medium,34000, windy, Birla Cement,2470000
+Residential Building, Prestige Shantiniketan, High,380, Medium,30, Low,230, High,31000, tightsoil, Nerolac Paints,2620000
+Residential Building, The Imperial, Medium,380, High,30, Medium,460, Medium,36000, windy, Orient Cement Ltd,4870000
+Residential Building, Arihant Amodini, Low,220, Low,40, High,480,High,20000, Hightemp, Hindware (HSIL Limited),3320000
+Residential Building, Oberoi Sky City, Low,390, High,50, High,280,High,28000, Hightemp, Birla Cement,4850000
+Residential Building, Lodha Bellissimo, Low,240,Medium,40, Medium,430, Low,50000, heavyrain, Vizag Steel (RINL - Rashtriya Ispat Nigam Ltd),2760000
+Residential Building, Piramal Mahalaxmi,High,300, High,30, Low,340, Low,29000, heavyrain, Ramco Cements Ltd,4550000
+Residential Building, Wadhwa Solitaire, Medium,320, High,20, Low,360, Medium,29000, Hightemp, Berger Paints India Ltd,3930000
+Residential Building, Crescent Bay Towers,Low,270, Medium,30, Medium,300, Low,31000, windy, Cera Sanitaryware Ltd,4280000
+Residential Building, DLF The Camellias,High,350, Medium,30, Medium,420, Medium,31000, windy, Supreme Industries (for pipes & fittings),2800000
+Residential Building, The Park Tower, Low,410, Low,50, High,420, Low,46000, Hightemp, Birla Cement,3910000
+Residential Building, Tata Housing Myst, Low,350, Medium,30,High,280, Low,24000, heavyrain,Shree Cement Ltd,3710000
+Commercial Building, Bombay Stock Exchange Tower, Medium,270, Medium,20, Low,360, Low,29000, humidity, Jindal Steel & Power Ltd,3860000
+Commercial Building, World Trade Center Mumbai, Medium,340,Low,40, High,320, Low,30000, tightsoil, Dalmia Cement (Bharat) Ltd,3380000
+Commercial Building, Infosys Pune Campus, Medium,200, Low,30, High,320, High,29000, humidity, ACC Limited,3710000
+Commercial Building, Infosys Bangalore Campus, Medium,220,Low,50, Low,420, Low,38000, Hightemp, Shree Cement Ltd,4810000
+Commercial Building, Cyber Hub Gurgaon, High,320,High,50, Low,350, High,44000, Hightemp, Nerolac Paints,3420000
+Commercial Building, Manyata Tech Park, Medium,470, High,20, Low,500, Medium,44000, humidity, Birla Cement,3510000
+Commercial Building,DLF Cyber City, High,490, High,40, Medium,360, Low,34000,windy, Supreme Industries (for pipes & fittings),3580000
+Commercial Building, SEZ Noida, Low,250,High,20, High,470, Low,48000, heavyrain, SAIL (Steel Authority of India Ltd),4010000
+Commercial Building, Express Towers, Medium,210, Medium,20, High,310,Medium,32000, windy, Asian Paints (for paints & coatings),4330000
+Commercial Building, The Capital,Medium,260, High,30, Medium,480, High,44000, humidity, Nerolac Paints,2650000
+Commercial Building, Maker Chambers, Medium,290, Low,50, Low,310,Medium,38000, windy, ACC Limited,2980000
+Commercial Building, Godrej BKC, High,260,Medium,30, Medium,440, High,33000, windy, Nerolac Paints,3290000
+Commercial Building, Oberoi Commerz, High,490, Medium,30, High,260, Low,25000,humidity, Hindware (HSIL Limited),3700000
+Commercial Building,The Ruby, Low,380, Low,40, Low,430, Low,30000, Hightemp, Ramco Cements Ltd,2290000
+Commercial Building, RMZ Infinity, High,460, Medium,30,High,270, Medium,49000, heavyrain,Ramco Cements Ltd,4860000
+Commercial Building, Mindspace Hyderabad, High,360, Low,20, Low,400, Medium,44000, windy, Asian Paints (for paints & coatings),3810000
+Commercial Building,Tidel Park Chennai, Medium,360, High,30, High,380, Medium,33000,heavyrain, Ramco Cements Ltd,2220000
+Commercial Building,Prestige Tech Park, Medium,340, High,50, Medium,480, Low,41000,heavyrain, Supreme Industries (for pipes & fittings),2480000
+Commercial Building, DLF IT Park, High,380, High,30, Medium,420, Medium,22000, Hightemp, Shree Cement Ltd,4710000
+Commercial Building, Worldmark Aerocity, Medium,250,Low,20, High,210, Medium,26000, windy, Vizag Steel (RINL - Rashtriya Ispat Nigam Ltd),4860000
+Commercial Building, EON Free Zone, Medium,500, High,50, High,370, Low,49000, humidity, Cera Sanitaryware Ltd,4900000
+Commercial Building, Embassy Golf Links, Medium,490, Low,40, High,370, High,22000, windy, Orient Cement Ltd,2040000
+Commercial Building, Waverock Hyderabad,Medium,460, High,40, High,320, Medium,25000, Hightemp, Ambuja Cements Ltd,3810000
+Commercial Building, WeWork BKC, Medium,500, Low,50, High,230, Low,48000, tightsoil, Jindal Steel & Power Ltd,4720000
+Commercial Building, Kohinoor Square,High,430, Medium,30, High,390, High,27000, loosesoil, Jindal Steel & Power Ltd,4480000
+Commercial Building, ICICI Towers, High,480, High,40, High,330, Medium,31000, humidity, Asian Paints (for paints & coatings),3750000
+Commercial Building,UB City Bangalore, Medium,260, Low,20, Medium,260, High,29000,tightsoil, UltraTech Cement Ltd,4000000
+Commercial Building,I-flex Solutions Campus, High,290, Low,20, Medium,450, Medium,36000,tightsoil, Vizag Steel (RINL - Rashtriya Ispat Nigam Ltd),2060000
+Commercial Building, ITC Green Centre, High,450, High,40, Medium,460, Low,30000, windy, Jindal Steel & Power Ltd,3970000
+Commercial Building, Wave One,Medium,220, High,30, Medium,430, High,24000, windy, Tata Steel Limited,4340000
+Resorts, Taj Lake Palace Resort,Low,280, Low,50, Medium,440, High,43000, tightsoil, ACC Limited,2910000
+Resorts, The Oberoi Udaivilas Resort, Medium,450, Low,30, Medium,440, Low,44000, Hightemp, Jindal Steel & Power Ltd,4880000
+Resorts, Kumarakom Lake Resort,Medium,220, High,30, High,370, Low,37000, windy, Birla Cement,3850000
+Resorts, The Leela Resort, Low,300, High,30, Medium,240,High,26000, heavyrain, UltraTech Cement Ltd,3740000
+Resorts, Ananda in the Himalayas Resort, High,350, Medium,40, Low,230, Low,34000, humidity, JSW Cement Ltd,2020000
+Resorts, Wildflower Hall Resort, High,210, High,40, Low,410,Low,40000, loosesoil, Ambuja Cements Ltd,2300000
+Resorts, Amanbagh Resort, High,210,Low,50, High,350, Low,40000, humidity, UltraTech Cement Ltd,4120000
+Resorts, Orange County Resort, Low,220, High,40, High,490, Low,29000, humidity, Ramco Cements Ltd,3480000
+Resorts,ITC Grand Resort & Spa, High,490,High,50, Medium,430, Medium,27000, tightsoil, ACC Limited,2870000
+Resorts,Neemrana Fort Resort, Low,360, Medium,20, Medium,240, High,23000,heavyrain, Jindal Steel & Power Ltd,3890000
+Resorts, The Tamara Resort, High,320, High,30, High,340, Medium,41000, Hightemp, Tata Steel Limited,2810000
+Resorts,The Khyber Himalayan Resort, High,480, Low,50, Low,210, High,30000, Hightemp, UltraTech Cement Ltd,4990000
+Resorts,Suryagarh Resort, High,470, Low,50, Medium,200, Low,27000, Hightemp, Shree Cement Ltd,2640000
+Resorts, The Serai Resort, Low,450, Low,40,Medium,220, Low,26000, windy,Cera Sanitaryware Ltd,2280000
+Resorts, Marari Beach Resort, Low,450, Medium,50, High,390, Medium,23000, humidity, ACC Limited,3590000
+Resorts, Radisson Blu Resort, Low,410, High,20, High,420, High,41000, tightsoil, Dalmia Cement (Bharat) Ltd,2910000
+Resorts, Alila Diwa Resort, Low,330, High,40, Low,440, Medium,34000, tightsoil, Dalmia Cement (Bharat) Ltd,4040000
+Resorts, Evolve Back Resort, Medium,280, High,50, Low,330, High,47000, humidity, JSW Cement Ltd,3650000
+Resorts, The Windflower Resort, Low,250, High,40, Medium,310,Low,21000, loosesoil, ACC Limited,3100000
+Resorts, The Lalit Resort & Spa, Medium,220, Low,40, Low,470,Medium,41000, windy, LafargeHolcim India,3750000
+Restaurants, Indian Accent, High,270, High,40, Low,320, Low,35000, Hightemp, Asian Paints (for paints & coatings),3940000
+Restaurants, Bukhara, Low,440, Low,50, High,220, High,29000, heavyrain, Nerolac Paints,4850000
+Restaurants, Dum Pukht, Medium,370, Medium,40,Medium,290, Medium,48000, tightsoil,JSW Cement Ltd,4170000
+Restaurants, Gaggan, Medium,440, Medium,30, Medium,500, High,39000, tightsoil, Berger Paints India Ltd,3190000
+Restaurants, The Table, Low,460, Medium,50, Low,380,Low,23000, tightsoil, Vizag Steel (RINL - Rashtriya Ispat Nigam Ltd),4160000
+Restaurants, Masala Library, High,260, Low,40, High,230, High,25000, heavyrain, Nerolac Paints,3660000
+Restaurants, Wasabi by Morimoto, High,350, Low,50, Medium,330, High,21000, Hightemp, Ramco Cements Ltd,4300000
+Restaurants, Villa Maya, High,340, Low,30, High,470, High,22000, humidity, Tata Steel Limited,3820000
+Restaurants, The Bombay Canteen, Low,490,Low,40, High,250, High,38000, heavyrain, Shree Cement Ltd,3520000
+Restaurants, Olive Bar & Kitchen, High,390,Medium,20, Low,210, High,42000, loosesoil, Ambuja Cements Ltd,3800000
+Restaurants, Trishna, Medium,270, Medium,50, Low,310, Medium,30000, windy, Nerolac Paints,2540000
+Restaurants, Karavalli, Medium,470, High,20, Low,300, Medium,29000, heavyrain, Cera Sanitaryware Ltd,3740000
+Restaurants, Peshawri, Medium,310,Low,30, Low,350, Medium,32000, tightsoil, Ambuja Cements Ltd,3840000
+Restaurants, O Pedro, Low,470, High,20, Low,440, Medium,46000,Hightemp, Cera Sanitaryware Ltd,4080000
+Restaurants, Megu, Low,470, Medium,20, Low,390, Medium,30000, tightsoil, ACC Limited,4480000
+Restaurants, Ziya, High,270, Medium,30, Medium,260, Low,38000, heavyrain, Jindal Steel & Power Ltd,3090000
+Restaurants, The Spice Route, Medium,420, Medium,20, Medium,460,Medium,37000, humidity, Shree Cement Ltd,3490000
+Restaurants, Malaka Spice, Medium,460,High,40, High,240, High,39000, tightsoil, Ramco Cements Ltd,3120000
+Restaurants, Savya Rasa, High,390, Low,50, Medium,370, High,20000,heavyrain, Jindal Steel & Power Ltd,4760000
+Restaurants, Toast & Tonic, Medium,300, High,40, Medium,330, High,20000, windy, Nerolac Paints,2560000
+Temples, Sri Venkateswara Swamy Temple, High,320, High,50, High,330, Low,47000,heavyrain, Dalmia Cement (Bharat) Ltd,4280000
+Temples,Kanaka Durga Temple, Low,230, Low,30, Low,470, Medium,36000,tightsoil, JSW Cement Ltd,3550000
+Temples, Meenakshi Amman Temple, Low,360, Low,20, High,270, Low,25000, humidity, Cera Sanitaryware Ltd,4740000
+Temples, Ramalingeswara Temple, Medium,480, Medium,50, Medium,240, High,43000, humidity, Cera Sanitaryware Ltd,4450000
+Temples, Bhavani Shankar Temple,Low,350, Low,20, Medium,450, Medium,23000, windy, ACC Limited,4290000
+Temples, Kasi Viswanathar Temple, Low,280, Low,20, High,410,Low,50000, loosesoil, SAIL (Steel Authority of India Ltd),4350000
+Temples, Sri Lakshmi Narasimha Swamy Temple, High,400, Low,50,Low,470, Medium,35000, humidity,Vizag Steel (RINL - Rashtriya Ispat Nigam Ltd),4980000
+Temples, Chennakesava Temple, Medium,260, Medium,50, High,280, Medium,36000, Hightemp, LafargeHolcim India,2870000
+Temples, Ranganathaswamy Temple, Low,350, Low,40,Medium,390, Medium,36000, heavyrain,Shree Cement Ltd,2830000
+Temples, Annavaram Satyanarayana Swamy Temple, Low,450, High,50,Low,310, Medium,24000, loosesoil,Orient Cement Ltd,2630000
+Temples, Sri Mallikarjuna Swamy Temple, Medium,270, Medium,40,High,450, High,21000, humidity,Orient Cement Ltd,4070000
+Temples, Jagannath Temple,Low,300, High,50, High,300, Low,34000, loosesoil, Nerolac Paints,4480000
+Temples, Bhimeswara Temple, Medium,200, Low,50, Medium,450, Medium,24000, tightsoil, Orient Cement Ltd,2440000
+Temples, Veerabhadra Swamy Temple, High,360,High,40, High,200, Medium,25000, windy, Supreme Industries (for pipes & fittings),4810000
+Temples, Raja Rajeshwari Temple, Medium,200, Medium,30, Medium,210,High,46000, windy, Berger Paints India Ltd,3000000
+Temples, Sri Varaha Lakshmi Narasimha Swamy Temple, Medium,480, Low,30, Medium,220, Medium,41000, heavyrain, Asian Paints (for paints & coatings),4670000
+Temples, Srisailam Bhramaramba Mallikarjuna Temple, Low,290, Medium,30, High,390, Low,22000,tightsoil, Orient Cement Ltd,4640000
+Temples, Sringeri Sharada Peetham, Low,250, Low,50, Medium,320, High,50000, heavyrain, LafargeHolcim India,2270000
+Temples, Mahakaleshwar Temple,High,500, Low,30, Medium,450, Medium,46000, humidity, Nerolac Paints,2910000
+Temples, Ekambareswarar Temple, High,340, Low,30, High,330, Low,50000, tightsoil, Dalmia Cement (Bharat) Ltd,3010000
+Temples, Chidambaram Nataraja Temple, High,460, Medium,30, Low,290, Low,21000, loosesoil, Vizag Steel (RINL - Rashtriya Ispat Nigam Ltd),3840000
+Temples, Kalahasti Temple,Low,200, Low,50, High,330, Medium,25000, loosesoil, Berger Paints India Ltd,2960000
+Temples, Thirunallar Saneeswaran Temple,High,400, Medium,30, High,490, High,44000, humidity, JSW Cement Ltd,4800000
+Temples, Sri Raghavendra Swamy Mutt,Medium,340, Low,50, Low,440, Medium,37000, loosesoil, JSW Cement Ltd,4760000
+Temples, Palani Murugan Temple, High,450, Low,40, High,320, Medium,43000, loosesoil, Shree Cement Ltd,3980000
+Temples, Arasavalli Sun Temple, High,490, Low,30, High,390,Low,43000, heavyrain, Cera Sanitaryware Ltd,3620000
+Temples, Simhachalam Temple, Low,300,High,20, High,210, Low,45000, tightsoil, Hindware (HSIL Limited),4410000
+Temples, Dakshineswar Kali Temple, Medium,400, High,30, High,300, Low,26000, humidity, Ambuja Cements Ltd,3370000
+Temples,ISKCON Temple, Medium,420, Medium,30, Medium,280, High,28000, loosesoil, Dalmia Cement (Bharat) Ltd,2120000
+Temples, Jagadamba Temple, Low,320, Low,50,Medium,410, Medium,21000, tightsoil,ACC Limited,4440000
+Movie Theatres, PVR Cinemas,Medium,400, High,30, Low,220, Low,20000, Hightemp, Jindal Steel & Power Ltd,3460000
+Movie Theatres, INOX Multiplex, High,430, Medium,20, Medium,350, Medium,44000, humidity, LafargeHolcim India,3960000
+Movie Theatres, Cinepolis Arena, Medium,200, High,30, High,490, Medium,48000, humidity, Supreme Industries (for pipes & fittings),4070000
+Movie Theatres, Miraj Cinemas, Medium,430, Low,30, High,430, Low,29000, windy, Vizag Steel (RINL - Rashtriya Ispat Nigam Ltd),3610000
+Movie Theatres, Galaxy Movie Theatre, Medium,420,Low,30, Medium,410, High,47000, loosesoil, Orient Cement Ltd,4110000
+Movie Theatres, Prasads IMAX, Medium,250, Medium,20, Low,480, Low,25000, heavyrain, Shree Cement Ltd,2280000
+Movie Theatres, Asian Cinemas, High,220, Medium,40, Medium,300, High,35000,Hightemp, Nerolac Paints,2230000
+Movie Theatres, RK Cineplex, High,220, Medium,40,Medium,230, Medium,36000, windy,Cera Sanitaryware Ltd,3950000
+Movie Theatres, CineMax Theatre, Low,460, Medium,50, Low,330, Low,37000, loosesoil, Shree Cement Ltd,3160000
+Movie Theatres, Gokul 70MM,Medium,440, Low,20, Low,350, Medium,30000, windy, Ambuja Cements Ltd,3350000
+Movie Theatres, Devi Theatre, Medium,360, Low,40, High,200, Medium,35000, loosesoil, Berger Paints India Ltd,3250000
+Movie Theatres, SV Multiplex, High,440, High,40, Medium,240, High,41000, humidity, UltraTech Cement Ltd,4230000
+Movie Theatres, Sudarshan 35MM, Low,350, High,40, Medium,500,High,26000, humidity, UltraTech Cement Ltd,3780000
+Movie Theatres, Mayuri Theatre, Low,300, Medium,30, Low,420, High,27000, tightsoil, LafargeHolcim India,3590000
+Movie Theatres, Raghavendra Cinemas, Low,460, Low,20, Medium,220, Medium,45000, windy, Hindware (HSIL Limited),2150000
+Movie Theatres, Sathyam Cinemas, Low,270, Medium,40, Medium,360, High,44000,humidity, Asian Paints (for paints & coatings),3150000
+Movie Theatres, Eshwar Cine Hub, High,240, High,40, Low,340, Medium,39000, heavyrain, Ambuja Cements Ltd,3210000
+Movie Theatres, Lakshmi Narasimha Cineplex, Low,380, Medium,20, Low,310, High,37000, loosesoil, ACC Limited,2810000
+Movie Theatres, Kalyani Cine Complex, High,210,High,30, Medium,390, Low,42000, humidity, Nerolac Paints,4180000
+Movie Theatres, Annapurna Theatre, Medium,210, High,40, Medium,340, Low,43000,Hightemp, Asian Paints (for paints & coatings),2970000
+Movie Theatres, Shiva Parvathi Cinema, Medium,290, High,50, Medium,330, Medium,39000, tightsoil, ACC Limited,3880000
+Movie Theatres, Vishnu Deluxe, High,320, Low,30, Low,490, High,31000, loosesoil, ACC Limited,3180000
+Movie Theatres,Mega Cineplex, Low,350, High,30, High,290, Low,27000, Hightemp, JSW Cement Ltd,2030000
+Movie Theatres, Grand World Cinema, Low,450, Medium,20, Low,220, Low,31000, windy, Dalmia Cement (Bharat) Ltd,4890000
+Movie Theatres,Universal Cinemas, Medium,330, High,20, Medium,430, Low,33000, Hightemp, LafargeHolcim India,4640000
+Movie Theatres, SS Multiplex, Low,460, High,20, Low,420, High,44000, heavyrain, Orient Cement Ltd,4850000
+Movie Theatres, Raja Deluxe Theatre, Low,490, High,40, Low,430, Medium,23000, heavyrain, LafargeHolcim India,3490000
+Movie Theatres, Blue Diamond Cinema,Medium,410, High,30, High,310, High,30000, Hightemp, Hindware (HSIL Limited),2730000
+Movie Theatres, Empire Movie Hub,Medium,490, Medium,20, High,380, Low,33000, humidity, Supreme Industries (for pipes & fittings),2940000
+Movie Theatres, Diamond Screen, High,250, Low,20,High,240, Low,50000, loosesoil,Ambuja Cements Ltd,4000000
+Parks, Nehru Zoological Park, Medium,360, Medium,20, Medium,320, Low,26000, Hightemp, JSW Cement Ltd,3010000
+Parks, Lumbini Park, Medium,280, High,40, Medium,240, Medium,25000, heavyrain, Ambuja Cements Ltd,2190000
+Parks, Eco Green Park, Medium,280, Medium,30, High,440,Medium,28000, windy, JSW Cement Ltd,3970000
+Parks, Gandhi Botanical Garden, Low,320, High,50, Low,440, Low,41000, tightsoil, Hindware (HSIL Limited),2480000
+Parks, Central Amusement Park, High,350,Medium,20, Medium,360, Medium,39000, heavyrain, Ramco Cements Ltd,2900000
+Parks, KBR National Park, High,330, Low,40, High,430, Medium,47000, heavyrain, Asian Paints (for paints & coatings),2540000
+Parks, Indira Gandhi Park, Medium,210, High,20, Medium,240, Medium,36000, windy, Hindware (HSIL Limited),4530000
+Parks, Rajiv Smriti Van, Low,410,Low,40, High,310, Medium,39000, humidity, Asian Paints (for paints & coatings),3320000
+Parks, Children�s Play World,High,220, High,50, Medium,400, Medium,42000, humidity, Nerolac Paints,4030000
+Parks, Rock Garden, Medium,470, High,20, High,420, Low,28000, loosesoil, Berger Paints India Ltd,3600000
+Parks, Subhash Chandra Park, Low,260, Medium,20, High,490, Medium,35000, tightsoil, Ramco Cements Ltd,4750000
+Parks, Lake View Park, Low,330,Low,50, Low,490, High,42000, windy, JSW Cement Ltd,4250000
+Parks, Sunderbans Ecological Park, High,250, High,20, High,350, High,49000, heavyrain, Birla Cement,4280000
+Parks, National Fossil Park, Low,500, Low,40, Low,460, Medium,36000, tightsoil, Cera Sanitaryware Ltd,4300000
+Parks, Nagarjuna Sagar Wildlife Park, High,220, Low,30, Low,280, Low,27000, loosesoil, LafargeHolcim India,3990000
+Parks, Deer Park,Low,340, High,20, High,420, High,47000, tightsoil, Ambuja Cements Ltd,3280000
+Parks, Adventure Fun Park, Medium,500, High,20, High,470, Low,48000, loosesoil, Berger Paints India Ltd,2570000
+Parks, Mini Zoo Park, Low,250, Low,50, Low,330, Low,41000, loosesoil, Shree Cement Ltd,2350000
+Parks, Rainbow Eco Park, Low,200, Medium,30, Low,220,Low,40000, tightsoil, Berger Paints India Ltd,4220000
+Parks, Central Children�s Park,Medium,500, Medium,40, High,480, Low,50000, loosesoil, Vizag Steel (RINL - Rashtriya Ispat Nigam Ltd),2460000
+Parks,Victoria Park, Low,430, Medium,40, Low,490, Low,28000, windy, SAIL (Steel Authority of India Ltd),4680000
+Parks, Megha Greenfields Park, Medium,470, Medium,50, Low,500, Low,38000, windy, Ambuja Cements Ltd,2650000
+Parks,Marine Drive Park, Medium,450, Medium,40, Low,260, Low,30000,windy, UltraTech Cement Ltd,2580000
+Parks, Golden Heritage Park, Low,480, Low,40, Low,310, High,41000, tightsoil, JSW Cement Ltd,3690000
+Parks, City Garden Park, Low,500, High,30,Low,440, High,44000, tightsoil,Birla Cement,4500000
+Parks, Hitech Botanical Gardens,Low,320, Medium,30, Low,440, Medium,46000, heavyrain, Dalmia Cement (Bharat) Ltd,3430000
+Parks, Water World Amusement Park, Medium,440, Low,40, High,470, High,49000, windy, Cera Sanitaryware Ltd,4500000
+Parks, Wildlife Safari Park,Medium,420, High,50, High,410, Medium,45000, humidity, Ambuja Cements Ltd,2340000
+Parks, Butterfly Garden, High,390, Low,50, Low,400,Low,37000, humidity, Jindal Steel & Power Ltd,2560000
+Parks, Skyview Adventure Park, Low,260, Low,50, Low,420, Low,45000, tightsoil, JSW Cement Ltd,3820000
+Bustand, APSRTC Bus Terminal, High,330, Medium,50, High,490,High,20000, heavyrain, Ambuja Cements Ltd,4360000
+Bustand, Central Bus Stand, High,230, High,20, Medium,320, Medium,21000, Hightemp, SAIL (Steel Authority of India Ltd),2490000
+Bustand, Metro City Bus Station,Low,200, Medium,30, Low,290, Low,25000, heavyrain, Nerolac Paints,2510000
+Bustand, Jubilee Bus Depot, Medium,330, Medium,50, Medium,440,Medium,37000, humidity, Vizag Steel (RINL - Rashtriya Ispat Nigam Ltd),3360000
+Bustand, Town Bus Junction, Low,400, Medium,40,Low,500, Low,25000, humidity,Birla Cement,3980000
+Bustand, RTC Cross Roads Bus Stand, High,320, High,30,High,410, Low,47000, windy,SAIL (Steel Authority of India Ltd),2230000
+Bustand,Panjagutta Bus Stop, High,450, Medium,20, High,330, Medium,20000,humidity, Asian Paints (for paints & coatings),4170000
+Bustand, MG Road Bus Terminal, High,350, High,20, High,210, Medium,34000, loosesoil, JSW Cement Ltd,2850000
+Bustand, Kukatpally Bus Depot, High,290,Low,30, Low,300, Medium,39000, windy, Berger Paints India Ltd,3260000
+Bustand, Koti Bus Stand, Low,330,High,30, Medium,450, High,44000, Hightemp, JSW Cement Ltd,2940000
+Bustand, Vijayawada RTC Bus Station, High,410,High,40, Low,390, Medium,38000, tightsoil, Ramco Cements Ltd,3410000
+Bustand, Visakhapatnam Bus Complex, Medium,220, Low,20, Low,480, Medium,39000, heavyrain, Birla Cement,3810000
+Bustand, Warangal Central Bus Stand, Low,480, High,40, Medium,230, Medium,30000,humidity, Supreme Industries (for pipes & fittings),4850000
+Bustand, Nellore RTC Depot, Low,360,Low,30, High,340, High,33000, tightsoil, Tata Steel Limited,4620000
+Bustand, Ongole Bus Stand, Medium,490, Medium,20, Low,310, Low,34000, tightsoil, Birla Cement,2790000
+Bustand, Rajahmundry Bus Terminal, Low,300, Medium,30, Low,420, Low,25000, Hightemp, Tata Steel Limited,4140000
+Bustand, Eluru Bus Complex, Medium,460, Medium,20,Low,460, Medium,45000, loosesoil,Jindal Steel & Power Ltd,2880000
+Bustand, Guntur Bus Depot, Low,230, Low,50, Low,470, High,45000, Hightemp, Asian Paints (for paints & coatings),4450000
+Bustand, Tirupati Bus Terminal, High,220, Low,30, High,320, High,46000, windy, Vizag Steel (RINL - Rashtriya Ispat Nigam Ltd),4320000
+Bustand, Bangalore Majestic Bus Stand,Low,290, Medium,50, Low,360, Low,22000, loosesoil, Jindal Steel & Power Ltd,4610000
+Bustand, Chennai Koyambedu Bus Terminal, High,460, High,40,High,430, High,50000, loosesoil,SAIL (Steel Authority of India Ltd),4080000
+Bustand,Hyderabad MGBS, Medium,390, High,40, Medium,240, Low,40000, loosesoil, Jindal Steel & Power Ltd,3340000
+Bustand,Secunderabad Jubilee Bus Stand, Low,220, Medium,40, Low,450, Medium,45000, heavyrain, Orient Cement Ltd,2510000
+Bustand,Karimnagar Bus Depot, Medium,460, High,50, Low,220, High,29000,heavyrain, UltraTech Cement Ltd,3600000
+Bustand, Bhimavaram Bus Stand, High,440, Low,40, High,220, Medium,35000, loosesoil, Ramco Cements Ltd,2790000
+Bustand, Gudivada RTC Bus Stop, Low,330, High,50, Low,480, High,48000, Hightemp, Jindal Steel & Power Ltd,3590000
+Bustand,Kurnool Bus Terminal, Low,260, High,20, Medium,270, Medium,28000,tightsoil, Supreme Industries (for pipes & fittings),2840000
+Bustand, Srikakulam RTC Depot, High,410,Low,40, Medium,420, Low,27000, humidity, Nerolac Paints,3710000
+Bustand,Nizamabad Bus Station, High,480, Medium,50, Medium,450, Low,32000,humidity, Jindal Steel & Power Ltd,2450000
+Bustand, Anantapur Bus Stand, Low,470, High,40, Low,230, Medium,42000, loosesoil, Tata Steel Limited,2610000
+Malls,Phoenix Market City, Medium,480, High,20, High,250, Medium,21000,Hightemp, Hindware (HSIL Limited),3510000
+Malls, Forum Mall, High,200, Medium,50,Low,360, Low,34000, Hightemp,Cera Sanitaryware Ltd,3680000
+Malls, South Grand Mall, High,370, Low,20, Low,200, Medium,40000, heavyrain, Asian Paints (for paints & coatings),4020000
+Malls, DLF Shopping Arena, High,260, High,30, Medium,500, High,36000, Hightemp, Supreme Industries (for pipes & fittings),4160000
+Malls, VR Mega Mall, Medium,500, Low,50, Low,220, Medium,47000, heavyrain, LafargeHolcim India,2640000
+Malls, Lulu International Mall, High,400, High,50, High,300, Medium,26000, loosesoil, Cera Sanitaryware Ltd,2290000
+Malls, City Center Mall, High,450, Low,20,Medium,430, Medium,46000, humidity,UltraTech Cement Ltd,4630000
+Malls, Elante Mall,High,250, Low,40, High,430, High,33000, humidity, Ramco Cements Ltd,2070000
+Malls, The Great India Place,Low,200, Low,50, Medium,470, Low,33000, loosesoil, Vizag Steel (RINL - Rashtriya Ispat Nigam Ltd),2690000
+Malls,Inorbit Mall, Low,490, Medium,40, Low,360, Medium,35000, humidity, Birla Cement,2780000
+Malls, Nexus Esplanade Mall, Low,320, Low,30, Low,230, High,46000, heavyrain, LafargeHolcim India,3720000
+Malls, Prestige Shopping Plaza, High,360, Medium,40, Low,300, Low,40000, loosesoil, Ramco Cements Ltd,2970000
+Malls, Ramee Shopping Hub, High,240, High,50, High,340,Low,44000, loosesoil, Birla Cement,3990000
+Malls, Central Plaza Mall, Medium,260,High,40, Medium,450, Low,27000, windy, UltraTech Cement Ltd,3300000
+Malls, Galaxy Mall, Medium,360, Medium,50, Medium,270, Medium,46000,loosesoil, Tata Steel Limited,3460000
+Malls, Metro Mega Mall, Medium,250, High,40, High,460, Low,33000, loosesoil, Nerolac Paints,4220000
+Malls, Infinity Shopping Complex, Low,460, Low,30, High,490, High,22000, tightsoil, UltraTech Cement Ltd,4240000
+Malls, Orbit City Mall,High,500, Medium,40, Low,320, Medium,28000, heavyrain, Vizag Steel (RINL - Rashtriya Ispat Nigam Ltd),3250000
+Malls,Treasure Island Mall, Medium,460, High,30, High,200, Low,29000,windy, UltraTech Cement Ltd,2330000
+Malls, White Orchid Mall, High,280, Medium,50, Low,470, High,41000, windy, Dalmia Cement (Bharat) Ltd,4110000
+Malls, Big Bazaar Shopping Mall, Medium,480, High,40, Medium,400, Medium,23000,Hightemp, UltraTech Cement Ltd,3830000
+Malls, Crystal Square Mall, Low,350, Low,50, High,310, High,25000, heavyrain, ACC Limited,4840000
+Malls, Mega World Shopping Centre, Low,480, High,30,High,220, High,38000, heavyrain,Vizag Steel (RINL - Rashtriya Ispat Nigam Ltd),2100000
+Malls, Fun City Mall, Low,500,Medium,20, Medium,390, High,30000, Hightemp, Birla Cement,2680000
+Malls,Star Light Plaza, High,250, High,40, Low,420, Medium,43000,windy, JSW Cement Ltd,4120000
+Malls, Platinum Towers Mall, Medium,330, High,50, Low,440, High,29000, Hightemp, Asian Paints (for paints & coatings),4060000
+Malls, The Emporium Shopping Centre, Low,250,Medium,30, Medium,240, High,26000, tightsoil, SAIL (Steel Authority of India Ltd),2520000
+Malls, Uptown Luxe Mall, High,460, Medium,30, Medium,300,High,41000, heavyrain, Tata Steel Limited,2960000
+Malls, Evergreen Retail Hub, Low,340, Low,40, High,340, Medium,26000, Hightemp, Supreme Industries (for pipes & fittings),4800000
+Malls, HyperCity Mega Mall, Low,350, Medium,50, High,270, Medium,40000, humidity, Ambuja Cements Ltd,2950000
+FunctionHall, Royal Grand Convention Hall, Medium,210, Medium,40, Low,300, Medium,26000, heavyrain, UltraTech Cement Ltd,2200000
+FunctionHall, Sri Lakshmi Kalyana Mandapam, Medium,200, Low,30, High,460, Low,42000, humidity, Shree Cement Ltd,3040000
+FunctionHall, Diamond Banquet Hall, Medium,430, Low,20, High,410,High,44000, heavyrain, Asian Paints (for paints & coatings),4310000
+FunctionHall, Emerald Palace Function Hall, Medium,450, Low,20, Low,490, High,23000, loosesoil, Berger Paints India Ltd,2210000
+FunctionHall, Pearl Wedding Hall, High,240, High,40, Low,430, Low,30000, heavyrain, Jindal Steel & Power Ltd,4580000
+FunctionHall, Silver Star Convention Center, Medium,260, High,40, Low,340, Medium,26000, tightsoil, Tata Steel Limited,3010000
+FunctionHall, Fortune Wedding Hall, High,300, High,50,Medium,220, Medium,31000, loosesoil,Vizag Steel (RINL - Rashtriya Ispat Nigam Ltd),3140000
+FunctionHall, Royal Orchid Banquets, Low,210,High,30, High,490, High,38000, windy, Vizag Steel (RINL - Rashtriya Ispat Nigam Ltd),4550000
+FunctionHall, Grand Blossom Function Hall, Medium,380, Medium,20, High,270, Medium,47000, heavyrain, Tata Steel Limited,2820000
+FunctionHall, Sai Surya Convention Hall, Medium,460, High,20, Medium,360, High,50000, heavyrain, Asian Paints (for paints & coatings),2530000
+FunctionHall, Starview Wedding Hall, Medium,460, Low,20, Low,350, Medium,32000, Hightemp, Orient Cement Ltd,2040000
+FunctionHall, Sunrise Celebration Hall, High,220, Medium,50,Medium,500, Low,37000, Hightemp,SAIL (Steel Authority of India Ltd),2020000
+FunctionHall,Starlit Garden Function Hall, High,380, Medium,20, High,400, Medium,35000, windy, Nerolac Paints,4790000
+FunctionHall, Heritage Convention Centre, Low,330, Low,30, Low,220, High,39000, humidity, LafargeHolcim India,2960000
+FunctionHall, Green Leaf Banquet Hall, High,410, Medium,40,High,320, High,22000, heavyrain,Asian Paints (for paints & coatings),2340000
+FunctionHall,Sapphire Royal Hall, High,370, Low,50, Low,410, Low,22000,windy, Jindal Steel & Power Ltd,4300000
+FunctionHall, Grand Lotus Function Hall, Medium,260,High,20, High,340, Medium,41000, Hightemp, Hindware (HSIL Limited),3360000
+FunctionHall, Harmony Banquet Hall, Medium,390, High,40, Medium,340, Medium,31000, loosesoil, Dalmia Cement (Bharat) Ltd,2660000
+FunctionHall, Zenith Celebration Centre, High,290, High,50, Medium,280, High,39000, humidity, Vizag Steel (RINL - Rashtriya Ispat Nigam Ltd),3310000
+FunctionHall, Celestial Events Hall, Medium,310, Low,50, High,430, Medium,22000, heavyrain, JSW Cement Ltd,2860000
+FunctionHall, Golden Star Function Hall, Medium,250, High,30, High,370, Medium,20000, heavyrain, JSW Cement Ltd,3260000
+FunctionHall, Grand Palace Banquets, Medium,470, Low,20, High,360,High,24000, Hightemp, ACC Limited,4020000
+FunctionHall, Blue Moon Wedding Hall, Medium,430, High,20, High,240, Low,38000, loosesoil, Birla Cement,4260000
+FunctionHall, Elegant Vista Function Hall, Medium,320,Low,50, High,350, High,23000, heavyrain, Jindal Steel & Power Ltd,4840000
+FunctionHall, Crystal Heights Banquet Hall, High,420, Medium,30, High,310,Medium,49000, loosesoil, Shree Cement Ltd,3320000
+FunctionHall, Mirage Banquet & Convention, High,340, High,20, High,440,High,38000, windy, LafargeHolcim India,2400000
+FunctionHall, Paradise Grand Hall, Medium,330,Low,50, Medium,340, High,28000, humidity, Dalmia Cement (Bharat) Ltd,2880000
+FunctionHall, Opulent Banquets, High,470, Low,30, Medium,370, Medium,37000, heavyrain, UltraTech Cement Ltd,3700000
+FunctionHall,Moonlight Celebration Hall, High,340, High,40, Medium,470, Medium,36000,tightsoil, Nerolac Paints,2680000
+FunctionHall, Velvet Crown Function Hall, Medium,410, High,30, Medium,390, Low,47000, humidity, Shree Cement Ltd,3290000
+Power plant, Srisailam Hydro Power Plant, Low,260, Low,30, Medium,280, High,26000,loosesoil, Ramco Cements Ltd,4410000
+Power plant,Nagarjuna Sagar Hydroelectric Station, Medium,270, Low,30, Medium,320, Medium,50000, tightsoil, Orient Cement Ltd,2330000
+Power plant, Simhadri Thermal Power Plant, Medium,330,High,50, High,300, Low,43000, heavyrain, UltraTech Cement Ltd,2880000
+Power plant, Dr. Narla Tata Rao Thermal Power Plant,Low,270, High,20, Medium,290, Low,32000, windy, Shree Cement Ltd,3850000
+Power plant, Rayalaseema Thermal Power Plant, High,410, Medium,20, Low,460, Low,43000, humidity, UltraTech Cement Ltd,4750000
+Power plant, Kudankulam Nuclear Power Plant, High,320, High,50,Low,210, High,27000, Hightemp,SAIL (Steel Authority of India Ltd),3690000
+Power plant, Ramagundam Super Thermal Power Station, High,250, Low,30, High,470, Low,32000, loosesoil, Hindware (HSIL Limited),2090000
+Power plant, NLC Neyveli Thermal Station, Low,390, High,50, High,230,Low,35000, loosesoil, Tata Steel Limited,3740000
+Power plant, Kaiga Nuclear Power Plant, High,490, High,40, Medium,430, Medium,35000, tightsoil, Birla Cement,2530000
+Power plant, Vijayawada Thermal Power Station, Low,310, Medium,20, Medium,200, Low,22000, heavyrain, ACC Limited,2080000
+Power plant, Kothagudem Thermal Power Station, High,450, High,30, High,300, High,40000, humidity, Tata Steel Limited,3900000
+Power plant, Bhadla Solar Power Park,High,460, Low,30, Low,450, High,28000, windy, Asian Paints (for paints & coatings),4590000
+Power plant, Rewa Ultra Mega Solar Park, High,340, Low,30, Medium,250, High,47000, windy, Berger Paints India Ltd,3450000
+Power plant, NTPC Dadri Power Plant, Low,490, Low,40, Medium,370, Low,23000, windy, Ambuja Cements Ltd,4060000
+Power plant, Singareni Thermal Power Plant, Low,480, Medium,20, High,260,Medium,36000, Hightemp, Ramco Cements Ltd,3800000
+Power plant, Adani Mundra Power Plant, Low,390, High,20, High,360, Medium,29000, humidity, Shree Cement Ltd,3580000
+Power plant, Anpara Thermal Power Station,Low,300, High,40, Low,360, Low,41000, humidity, Tata Steel Limited,2900000
+Power plant, Tuticorin Thermal Power Station, Medium,360, High,20, Low,330, Low,22000, heavyrain, Ambuja Cements Ltd,3080000
+Power plant, Udupi Power Corporation Limited, Low,200, High,40,Medium,210, Medium,29000, Hightemp,Vizag Steel (RINL - Rashtriya Ispat Nigam Ltd),3690000
+Power plant, Vindhyachal Super Thermal Power Station, Medium,430, Low,50, Low,430, Low,43000, humidity, Tata Steel Limited,3300000
+Power plant, Ennore Thermal Power Station,High,460, High,40, Low,240, Medium,30000, windy, Cera Sanitaryware Ltd,3960000
+Power plant, Mettur Thermal Power Station, Low,450, Low,20, High,290, Medium,49000, tightsoil, UltraTech Cement Ltd,3040000
+Power plant, Jharsuguda Thermal Power Plant, Medium,490, Medium,20,Medium,470, High,31000, loosesoil,ACC Limited,4310000
+Power plant, Ballari Thermal Power Plant, Medium,490, Medium,30,Medium,310, Low,38000, loosesoil,LafargeHolcim India,2970000
+Power plant, Durgapur Steel Thermal Power Plant, Low,460, Medium,50, Low,300, Medium,45000, heavyrain, Ramco Cements Ltd,2540000
+Power plant, Kakatiya Thermal Power Station, High,270, Low,20, High,360, Medium,40000,tightsoil, Supreme Industries (for pipes & fittings),3690000
+Power plant, Chandrapur Super Thermal Power Station, High,490, Low,20, Medium,430, Low,33000, heavyrain, Tata Steel Limited,2300000
+Power plant, Jindal Power Plant, High,370, Low,20, High,320, High,46000, tightsoil, Asian Paints (for paints & coatings),3220000
+Power plant, Kurnool Ultra Mega Solar Park, Low,450, Low,40, High,360, Medium,20000,loosesoil, Shree Cement Ltd,4310000
+Power plant,Bhadradri Thermal Power Plant, High,360, Medium,20, Low,230, High,26000, Hightemp, Shree Cement Ltd,3580000
+Schools,St. Ann�s High School, Medium,400, Medium,20, Low,210, Low,21000, heavyrain, Dalmia Cement (Bharat) Ltd,3370000
+Schools, Narayana Concept School, Medium,260, High,30, Low,300, High,27000, windy, Nerolac Paints,2550000
+Schools, Sri Chaitanya Techno School, Medium,460,Low,40, Low,210, Low,34000, heavyrain, LafargeHolcim India,3580000
+Schools,Delhi Public School, Low,330, High,40, Low,380, High,35000,tightsoil, Hindware (HSIL Limited),3820000
+Schools, Oakridge International School, Low,370, Medium,50, Low,370, High,27000, humidity, Cera Sanitaryware Ltd,2160000
+Schools, Kendriya Vidyalaya, High,390, Medium,30, Medium,440, High,42000, heavyrain, Cera Sanitaryware Ltd,2830000
+Schools, Bharatiya Vidya Bhavan�s Public School, Medium,230, Medium,50, Medium,390, Medium,45000,heavyrain, ACC Limited,2340000
+Schools, Silver Oaks International School, Medium,450, High,30, High,250, Low,40000, loosesoil, Ramco Cements Ltd,2100000
+Schools, DAV Public School, High,350, Low,40,Medium,330, Low,22000, windy,Ambuja Cements Ltd,3560000
+Schools, Meridian School,Medium,290, High,30, Medium,320, High,36000, Hightemp, Supreme Industries (for pipes & fittings),3420000
+Schools, Sreenidhi International School, High,310, High,40,High,440, Medium,22000, Hightemp,Supreme Industries (for pipes & fittings),4150000
+Schools,Phoenix Greens International School, Low,490, Low,40, Low,460, Low,41000, humidity, Ramco Cements Ltd,3590000
+Schools,Orchids The International School, Low,310, Low,40, High,230, High,25000, heavyrain, LafargeHolcim India,4620000
+Schools, Timpany School, Medium,320, Medium,30,Medium,270, Low,33000, heavyrain,Berger Paints India Ltd,4580000
+Schools, Glendale Academy International, Low,310, Low,30,Medium,460, Low,41000, Hightemp,JSW Cement Ltd,3980000
+Schools, Little Flower High School, Low,210, Low,40,High,220, High,22000, Hightemp,Dalmia Cement (Bharat) Ltd,3470000
+Schools, Chinmaya Vidyalaya, High,430, Low,20, Low,250, Medium,49000, Hightemp, Shree Cement Ltd,4220000
+Schools, Johnson Grammar School,Medium,390, Medium,20, High,420, Low,20000, tightsoil, Dalmia Cement (Bharat) Ltd,2010000
+Schools, Bhashyam Blooms School,Low,490, Low,20, Medium,220, High,34000, tightsoil, Vizag Steel (RINL - Rashtriya Ispat Nigam Ltd),2780000
+Schools,Sadhana Infinity School, Low,330, High,40, Low,260, Medium,20000,humidity, Supreme Industries (for pipes & fittings),3540000
+Schools, Kendriya Vidyalaya No. 1, Medium,390, Medium,40, High,490, High,49000, loosesoil, Nerolac Paints,3920000
+Schools, Mount Litera Zee School, Low,380,High,40, High,270, Medium,40000, windy, Dalmia Cement (Bharat) Ltd,3390000
+Schools, Visakha Valley School, Medium,470,Low,30, Medium,460, High,30000, humidity, JSW Cement Ltd,4180000
+Schools, Pragathi Central School, High,440, High,30, High,420, High,21000, humidity, ACC Limited,2790000
+Schools, The Creek Planet School, Medium,490, Medium,20, Medium,270, Medium,26000,loosesoil, Ramco Cements Ltd,2790000
+Schools, Rockwell International School, Medium,400, Low,20, Medium,380, Medium,43000, humidity, Shree Cement Ltd,2990000
+Schools, The Hyderabad Public School, Low,430, Medium,20, High,400, Medium,29000, loosesoil, Hindware (HSIL Limited),3670000
+Schools, JMJ English Medium School, Low,340, Low,30, Medium,400, High,27000, heavyrain, Dalmia Cement (Bharat) Ltd,5000000
+Schools, Dr. KKR�s Gowtham Concept School, High,350, Low,30, Medium,350, High,42000, loosesoil, Jindal Steel & Power Ltd,3640000
+Schools, Global Edge School, High,420, Low,50, High,270,Low,20000, loosesoil, Tata Steel Limited,4440000
+Police Station, Jubilee Hills Police Station, High,440, Medium,50, Low,500, High,22000, Hightemp, Orient Cement Ltd,2940000
+Police Station, Banjara Hills Police Station,Low,390, Low,20, High,410, Low,36000, tightsoil, Vizag Steel (RINL - Rashtriya Ispat Nigam Ltd),4670000
+Police Station, Panjagutta Police Station, High,340, Medium,20, High,400, Medium,46000, heavyrain, Cera Sanitaryware Ltd,4690000
+Police Station, Madhapur Police Station, Medium,260, Low,20, Low,250, High,50000, Hightemp, Hindware (HSIL Limited),3990000
+Police Station, Gachibowli Police Station, High,420, Low,30, High,290, Low,49000, tightsoil, Shree Cement Ltd,4520000
+Police Station, Kukatpally Police Station, High,200, Low,20, High,340, Low,45000, heavyrain, Tata Steel Limited,4470000
+Police Station, SR Nagar Police Station, Low,370,High,50, High,310, High,36000, windy, Dalmia Cement (Bharat) Ltd,2290000
+Police Station, Begumpet Police Station, Medium,280, High,20, High,290, Low,25000, Hightemp, UltraTech Cement Ltd,4650000
+Police Station, Koti Police Station, Medium,460, Medium,30, Medium,220, High,32000, heavyrain, ACC Limited,4080000
+Police Station, Abids Police Station, Low,230,Low,30, Medium,290, High,36000, humidity, Orient Cement Ltd,4700000
+Police Station, Charminar Police Station, Medium,480,High,50, Low,410, Low,22000, Hightemp, Supreme Industries (for pipes & fittings),2560000
+Police Station, Nallakunta Police Station, High,330, Medium,20, Medium,400, Medium,38000, Hightemp, ACC Limited,4530000
+Police Station, Malkajgiri Police Station, Medium,490, High,40, High,410,Low,24000, heavyrain, SAIL (Steel Authority of India Ltd),3470000
+Police Station, Bowenpally Police Station, Medium,460, Low,30, High,330, Low,20000, Hightemp, JSW Cement Ltd,2780000
+Police Station, Dilsukhnagar Police Station, Medium,330, Low,50, Medium,230, Medium,20000, windy, Vizag Steel (RINL - Rashtriya Ispat Nigam Ltd),4200000
+Police Station, LB Nagar Police Station, Medium,280, Medium,40, Low,400, High,23000, tightsoil, ACC Limited,3130000
+Police Station, Rajendranagar Police Station, High,300,Medium,50, Medium,390, Medium,22000, Hightemp, LafargeHolcim India,3260000
+Police Station, Chikkadpally Police Station, High,200, Medium,20, Medium,450, Low,48000, windy, LafargeHolcim India,4330000
+Police Station,Secunderabad Police Station, Low,220, Medium,30, Low,370, Medium,40000,heavyrain, Asian Paints (for paints & coatings),2350000
+Police Station, Mehdipatnam Police Station, Medium,420, Low,50, Low,340, Medium,36000, tightsoil, Vizag Steel (RINL - Rashtriya Ispat Nigam Ltd),2120000
+Police Station, Miyapur Police Station, Medium,340, Low,30,High,220, High,30000, tightsoil,JSW Cement Ltd,4670000
+Police Station, Kachiguda Police Station, High,460, High,20,Medium,230, Low,31000, heavyrain,JSW Cement Ltd,2840000
+Police Station, Attapur Police Station, Low,270, High,40,Medium,280, Medium,28000, tightsoil,Birla Cement,2120000
+Police Station, Narayanguda Police Station, Low,420, Medium,30, Low,390, Medium,21000, heavyrain, ACC Limited,2150000
+Police Station, Shamshabad Police Station,Low,290, Low,20, Medium,280, Low,42000, heavyrain, Supreme Industries (for pipes & fittings),2750000
+Police Station, Uppal Police Station, Low,280, Medium,20, Medium,490, High,46000, humidity, Cera Sanitaryware Ltd,3400000
+Police Station, Vanasthalipuram Police Station, High,210, High,40, Low,240, High,34000, humidity, Tata Steel Limited,2740000
+Police Station, Karimnagar Police Station, Low,440, Medium,40, Low,280, Medium,44000, tightsoil, UltraTech Cement Ltd,4020000
+Police Station, Khammam Police Station, High,490, High,40, Medium,340, Medium,39000, humidity, Orient Cement Ltd,4080000
+Police Station, Warangal Police Station, Medium,360, High,50, Medium,410, High,29000, loosesoil, JSW Cement Ltd,4900000
+University, Andhra University, Medium,470, High,20, Medium,500, Low,37000, windy, JSW Cement Ltd,4130000
+University, Osmania University, High,260, Low,30, Low,250, Medium,47000, Hightemp, Vizag Steel (RINL - Rashtriya Ispat Nigam Ltd),4680000
+University, JNTU Hyderabad, Low,490, High,30,High,310, Medium,43000, humidity,LafargeHolcim India,2400000
+University, Sri Venkateswara University,Low,260, Medium,20, Low,500, Low,21000, loosesoil, Hindware (HSIL Limited),2130000
+University, University of Hyderabad, Medium,440, High,40, Medium,330, Medium,47000, windy, LafargeHolcim India,3510000
+University, IIT Hyderabad, Low,380,High,20, Low,290, Low,34000, Hightemp, JSW Cement Ltd,3440000
+University, NIT Warangal, Low,410, High,30, Low,480, Medium,32000,humidity, Cera Sanitaryware Ltd,4220000
+University, Kakatiya University, Medium,370, High,20,High,380, Medium,35000, loosesoil,Jindal Steel & Power Ltd,4350000
+University, Acharya Nagarjuna University, Medium,280, Medium,40, High,320, High,32000, heavyrain, Jindal Steel & Power Ltd,4730000
+University,Gitam University, High,210, Low,20, High,370, Low,22000, heavyrain, Dalmia Cement (Bharat) Ltd,2110000
+University, SRM University, Medium,370, Medium,30,Medium,250, Low,44000, Hightemp,Shree Cement Ltd,3220000
+University, Amity University,Medium,430, High,40, Medium,350, High,20000, tightsoil, Asian Paints (for paints & coatings),2510000
+University, VIT Vellore, Medium,380, Medium,40, High,440, High,26000, heavyrain, Jindal Steel & Power Ltd,3610000
+University, Anna University, Low,500, High,30, Low,210, High,21000, tightsoil, Jindal Steel & Power Ltd,4290000
+University, Manipal Academy of Higher Education, High,430, Medium,30, Medium,450, Medium,23000,Hightemp, Cera Sanitaryware Ltd,4410000
+University, Mahindra University, High,260, Low,50,High,500, Low,30000, humidity,Birla Cement,3140000
+University, Sharda University, Medium,360, High,20, Medium,480, High,30000, humidity, Cera Sanitaryware Ltd,4100000
+University, Christ University, Low,400, Low,40, High,230, High,21000, humidity, SAIL (Steel Authority of India Ltd),4940000
+University, ICFAI University, High,490, High,20, Medium,400,Medium,34000, windy, Supreme Industries (for pipes & fittings),4850000
+University, Visvesvaraya Technological University,Medium,350, High,30, High,400, Medium,26000, Hightemp, Ambuja Cements Ltd,3790000
+University, Rajiv Gandhi University of Knowledge Technologies, Low,410, Medium,40,High,300, Medium,47000, humidity,SAIL (Steel Authority of India Ltd),2630000
+University,KL University, Low,430, Low,30, Low,430, Low,24000, loosesoil, ACC Limited,2810000
+University, NIIT University,High,440, High,50, High,470, Medium,29000, heavyrain, Orient Cement Ltd,3290000
+University, Lovely Professional University, Low,210, Low,20, Low,430, Low,32000, heavyrain, Nerolac Paints,3150000
+University, Amrita Vishwa Vidyapeetham, High,500, Low,30, Low,370, High,24000, heavyrain, SAIL (Steel Authority of India Ltd),3140000
+University, Bennett University, Low,470, High,40, High,450,Low,44000, loosesoil, Nerolac Paints,4200000
+University, Shiv Nadar University, Medium,380,High,40, High,450, Medium,46000, heavyrain, Ramco Cements Ltd,3080000
+University, PSG College of Technology, Low,480,Low,20, Low,490, High,22000, loosesoil, Ambuja Cements Ltd,2350000
+University, Dayananda Sagar University, Low,470, Medium,50, Low,470, High,35000, Hightemp, Tata Steel Limited,4390000
+University,National Law University Hyderabad, Medium,320, Medium,40, High,440, High,50000, heavyrain, Berger Paints India Ltd,3720000
+Factory, BHEL Hyderabad Factory, Low,290, Medium,50, Low,390, Low,49000, humidity, SAIL (Steel Authority of India Ltd),2930000
+Factory, NTPC Equipment Manufacturing Unit, Medium,430, Medium,40, Low,330,Medium,45000, Hightemp, Orient Cement Ltd,2340000
+Factory, Maruti Suzuki Factory, Medium,340, Medium,20, Low,430, Medium,35000, Hightemp, Vizag Steel (RINL - Rashtriya Ispat Nigam Ltd),3320000
+Factory, Tata Motors Manufacturing Plant, Low,200, Low,30,Low,260, High,29000, heavyrain,ACC Limited,3700000
+Factory, Ashok Leyland Factory,Low,390, High,40, Low,380, Medium,42000, heavyrain, SAIL (Steel Authority of India Ltd),3650000
+Factory, Amul Dairy Processing Plant, Low,460, Medium,20, Low,210, Medium,28000, loosesoil, Jindal Steel & Power Ltd,3440000
+Factory,Coca-Cola Bottling Plant, Medium,220, Low,50, High,290, High,25000,loosesoil, Cera Sanitaryware Ltd,3890000
+Factory, Britannia Biscuit Factory, Medium,240, High,50, High,430, Medium,25000, tightsoil, Shree Cement Ltd,3680000
+Factory, TVS Motor Factory, High,390, Low,40,Low,490, Medium,24000, heavyrain,Ambuja Cements Ltd,2950000
+Factory, Apollo Tyres Manufacturing Unit, Low,230, Low,40,Low,500, High,32000, loosesoil,Hindware (HSIL Limited),3940000
+Factory, ITC Paper Factory, High,270, Medium,30, High,320, Low,33000, windy, Dalmia Cement (Bharat) Ltd,3930000
+Factory, Hero MotoCorp Manufacturing Plant, High,420, High,40,Medium,440, High,33000, humidity,ACC Limited,3030000
+Factory, Asian Paints Factory,Low,220, Medium,30, Low,320, High,39000, Hightemp, Dalmia Cement (Bharat) Ltd,3820000
+Factory, L&T Construction Equipment Factory, Medium,350, Medium,20, Medium,230, Low,41000, humidity, JSW Cement Ltd,4000000
+Factory, Hyundai Car Factory, Low,360, Medium,40,Low,490, High,39000, humidity,Cera Sanitaryware Ltd,4600000
+Factory, Steel Authority of India Plant, High,210, High,50, High,490, High,45000, Hightemp, Ramco Cements Ltd,4210000
+Factory, Hindustan Unilever Production Unit, High,410, Medium,40, High,210, Medium,36000, tightsoil, Vizag Steel (RINL - Rashtriya Ispat Nigam Ltd),2070000
+Factory, Nestle India Processing Unit, High,430, High,30, High,430,High,44000, windy, Supreme Industries (for pipes & fittings),3050000
+Factory, Godrej Appliances Factory,High,340, Low,40, Low,330, Medium,29000, humidity, Shree Cement Ltd,4740000
+Factory, Parle-G Biscuit Factory, Low,280, High,50, Medium,390, Low,43000, heavyrain, Berger Paints India Ltd,3220000
+Factory, Haldiram�s Snacks Factory, High,290, High,20, Low,220, Medium,32000, Hightemp, SAIL (Steel Authority of India Ltd),2280000
+Factory, Bharat Forge Production Plant, Medium,200, Low,30, Low,230, Medium,29000,Hightemp, Vizag Steel (RINL - Rashtriya Ispat Nigam Ltd),2090000
+Factory, Cipla Pharmaceuticals Factory, Low,350, High,20, Medium,210,High,40000, Hightemp, JSW Cement Ltd,3940000
+Factory, Raymond Textiles Factory, Low,430, Low,40, High,430, Medium,43000, humidity, Ambuja Cements Ltd,3360000
+Factory, UltraTech Cement Manufacturing Plant, Medium,280, Medium,20, Low,210, Medium,22000, Hightemp, LafargeHolcim India,3300000
+Factory, MRF Tyres Factory, Low,470, Medium,30, Low,260, Medium,28000, heavyrain, SAIL (Steel Authority of India Ltd),4880000
+Factory, Honda Motorcycles Plant, Medium,360, Medium,40, Low,360, High,46000, Hightemp, Shree Cement Ltd,2580000
+Factory, Bajaj Auto Manufacturing Unit, Low,260, Low,40, Low,500, Medium,43000, tightsoil, Ambuja Cements Ltd,4410000
+Factory, Berger Paints Factory, High,210,Low,20, High,370, Low,41000, loosesoil, Asian Paints (for paints & coatings),3020000
+Factory, Tata Steel Plant, Low,430, Medium,40, Low,380,Low,37000, humidity, Hindware (HSIL Limited),4350000
+Sub Stations, Secunderabad Power Substation, High,200, High,40, High,250,Low,40000, tightsoil, Berger Paints India Ltd,4360000
+Sub Stations, Gachibowli 132kV Substation, Medium,240, High,20, Medium,460, High,42000, Hightemp, Ambuja Cements Ltd,2560000
+Sub Stations, Kukatpally 220kV Substation, Low,410, Medium,40, Low,480, Medium,31000, loosesoil, Birla Cement,4110000
+Sub Stations, LB Nagar 110kV Substation, Medium,400, High,40, Low,440, High,38000, Hightemp, Cera Sanitaryware Ltd,3140000
+Sub Stations, Jubilee Hills 33kV Substation,High,200, Low,30, High,500, High,44000, heavyrain, Nerolac Paints,3250000
+Sub Stations, Uppal 400kV Substation, Low,290, High,40, Low,290, Low,25000, heavyrain, LafargeHolcim India,4020000
+Sub Stations, Kothagudem Power Substation, Low,400, High,20, Medium,300,Medium,24000, windy, Ramco Cements Ltd,3200000
+Sub Stations, Visakhapatnam Grid Substation, High,310, Low,20, Medium,430,High,50000, loosesoil, JSW Cement Ltd,4830000
+Sub Stations, Tirupati Transmission Substation, High,410, Medium,50, Medium,250,Low,50000, heavyrain, Shree Cement Ltd,2020000
+Sub Stations, Malkajgiri 220kV Substation, Low,340, High,40, Low,320,Medium,38000, windy, Tata Steel Limited,3500000
+Sub Stations, Karimnagar Electrical Substation, Medium,410, High,20, High,450,Low,24000, windy, Supreme Industries (for pipes & fittings),2000000
+Sub Stations, Shamshabad 132kV Substation, High,240, Medium,30, Low,470, High,29000, heavyrain, Orient Cement Ltd,3080000
+Sub Stations, Warangal Power Transmission Station, High,430, Low,50,Low,200, High,25000, tightsoil,Supreme Industries (for pipes & fittings),4070000
+Sub Stations, Vijayawada HVDC Substation, High,500, High,30, Medium,370, High,47000, Hightemp, Ambuja Cements Ltd,3310000
+Sub Stations, Rajahmundry 400kV Substation, Medium,280, Low,50, Low,340, Medium,46000, loosesoil, Tata Steel Limited,2580000
+Sub Stations, Srikakulam Power Grid, High,390, High,50, High,390, Medium,32000, windy, Supreme Industries (for pipes & fittings),2900000
+Sub Stations, Kurnool Transmission Substation, High,470, Low,30, Medium,210,High,44000, heavyrain, Berger Paints India Ltd,2730000
+Sub Stations, Nizamabad Electric Substation, High,460, Low,20, High,370, Medium,36000, Hightemp, ACC Limited,4380000
+Sub Stations, Bhimavaram 110kV Substation, Low,480, Low,30, Medium,390,Low,48000, tightsoil, Dalmia Cement (Bharat) Ltd,2890000
+Sub Stations, Adilabad HVDC Station, Low,370, Medium,50, Low,410, Medium,29000, humidity, Shree Cement Ltd,4670000
+Sub Stations, Mahbubnagar 220kV Substation, Low,480, Low,50, Low,360, Low,20000, windy, Dalmia Cement (Bharat) Ltd,4880000
+Sub Stations, Kadapa 132kV Power Station, High,400, Medium,50, Low,240, Low,44000, tightsoil, Berger Paints India Ltd,4710000
+Sub Stations, Nellore High Voltage Substation, High,280, High,20, High,420, Medium,26000, loosesoil, Berger Paints India Ltd,4270000
+Sub Stations,Eluru Electrical Grid, Medium,400, High,20, Medium,360, Medium,24000,windy, Tata Steel Limited,2060000
+Sub Stations,Guntur 400kV Substation, Medium,260, Medium,20, Medium,490, Low,45000,windy, Birla Cement,3050000
+Sub Stations, Khammam Power Grid Station, Medium,200, High,30, High,210, High,29000,heavyrain, Berger Paints India Ltd,2760000
+Sub Stations, Tirumala 110kV Power Substation, Low,380,Low,50, High,470, Low,20000, tightsoil, Jindal Steel & Power Ltd,4030000
+Sub Stations, Anantapur Power Distribution Substation, High,260, Medium,20, Low,270, Medium,50000, tightsoil, Ambuja Cements Ltd,2440000
+Sub Stations, Mancherial Electrical Transmission Station,Medium,310, High,40, High,440, Medium,32000, heavyrain, Berger Paints India Ltd,2960000
+Sub Stations, Hindupur High Voltage Substation, High,450, Medium,20,Low,350, Low,23000, tightsoil,Jindal Steel & Power Ltd,4730000
+Houses, Green Valley Villa, Medium,350, High,30, Medium,440, Low,44000, loosesoil, Dalmia Cement (Bharat) Ltd,3650000
+Houses, Sunshine Residency, Low,490, Low,50,High,420, Low,25000, loosesoil,Nerolac Paints,2260000
+Houses, Rosewood Bungalow, Low,230, High,30, High,360, Low,25000, tightsoil, LafargeHolcim India,3010000
+Houses, Blue Heaven Apartments, Low,280, Medium,30, Medium,450, Medium,46000, Hightemp, Berger Paints India Ltd,4540000
+Houses, Lotus Nest Villa, High,450, High,40, Low,410, High,33000, humidity, SAIL (Steel Authority of India Ltd),3930000
+Houses, Lakeview Mansion, Medium,280, High,50, Low,420,High,50000, tightsoil, Nerolac Paints,4800000
+Houses, Golden Meadows Residency, Low,240,Medium,30, Medium,350, Low,20000, tightsoil, ACC Limited,2750000
+Houses,Royal Orchid Home, High,230, Medium,20, Medium,280, Low,41000,humidity, Berger Paints India Ltd,2800000
+Houses,Silver Springs Bungalow, Low,310, Low,40, High,400, Medium,21000,loosesoil, Birla Cement,4580000
+Houses, Harmony Heights Apartments, Low,410, Medium,40,High,400, Low,37000, tightsoil,UltraTech Cement Ltd,2930000
+Houses, Prestige Green Gables, Medium,400, Medium,50, Low,430, Medium,24000, humidity, UltraTech Cement Ltd,4070000
+Houses, Serene Meadows Villa,Medium,210, Low,20, High,330, Low,39000, tightsoil, JSW Cement Ltd,3580000
+Houses, White Pearl Home, Medium,220, Low,20, High,400, Medium,47000, windy, JSW Cement Ltd,2780000
+Houses, Elite Residency, Medium,280, Low,30, Low,320, Medium,46000, humidity, Hindware (HSIL Limited),3150000
+Houses, Emerald Enclave, High,330, High,50, Low,250, Medium,36000, tightsoil, JSW Cement Ltd,2940000
+Houses,Sapphire Heights, Medium,200, High,20, Low,500, Low,25000, Hightemp, Jindal Steel & Power Ltd,2230000
+Houses,Fortune Greens Villa, High,240, High,50, Medium,280, High,42000,loosesoil, Hindware (HSIL Limited),5000000
+Houses, Mystic Hills Apartments, Low,430, High,50, High,390, Medium,49000, tightsoil, ACC Limited,2630000
+Houses, Platinum Sky Towers, Medium,480, Medium,30, High,480, Medium,20000, loosesoil, SAIL (Steel Authority of India Ltd),3400000
+Houses, Classic Courtyard Home, Medium,380, High,40, Medium,250, High,23000, heavyrain, Dalmia Cement (Bharat) Ltd,2200000
+Houses, Sunrise Boulevard House, Medium,330, Low,40, Low,490, Medium,42000, windy, Vizag Steel (RINL - Rashtriya Ispat Nigam Ltd),2700000
+Houses, Victorian Charm Villa, High,320, Medium,50, Medium,200, High,50000, windy, Ambuja Cements Ltd,3590000
+Houses, Urban Nest Bungalow, High,330,Medium,30, High,260, High,50000, loosesoil, ACC Limited,4870000
+Houses,Coral Garden House, Low,460, Low,20, Low,270, Low,28000,humidity, Cera Sanitaryware Ltd,2910000
+Houses, Infinity Residences, High,320, Medium,50,High,330, Low,27000, tightsoil,LafargeHolcim India,4500000
+Houses, The Grand Heritage Home, High,320, Low,30, Low,420, Medium,24000, loosesoil, Supreme Industries (for pipes & fittings),3820000
+Houses, Maplewood Estates, Medium,330, High,20,High,390, Medium,37000, humidity,Nerolac Paints,2670000
+Houses, Tranquil Haven, Medium,220, High,30, Medium,350, High,21000, Hightemp, Asian Paints (for paints & coatings),4270000
+Houses, Bloomingdale Homes,High,320, High,50, Medium,290, Low,34000, loosesoil, LafargeHolcim India,3740000
+Houses, The Zen Villa, Medium,410, Low,40, High,470,Medium,45000, loosesoil, Hindware (HSIL Limited),3350000
