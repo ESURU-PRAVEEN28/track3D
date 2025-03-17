@@ -3,6 +3,10 @@ from django.shortcuts import render
 # Create your views here.
 from django.shortcuts import render
 from .ml_model import predict_price
+from django.views.decorators.csrf import csrf_exempt
+
+
+@csrf_exempt
 
 def recommend_material(request):
     if request.method == "POST":
@@ -22,3 +26,6 @@ def recommend_material(request):
         return render(request, "recommendations/results.html", {"predicted_price": predicted_price})
 
     return render(request, "recommendations/form.html")
+
+
+

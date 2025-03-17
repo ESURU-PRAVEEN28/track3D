@@ -7,7 +7,17 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
 </head>
+<style>div{
+display :flex;
+border: solid black 2px;
+justify-content:center;
+width:300px;
+}</style>
 <body>
+<form  action="{% url 'recommend_material'%}" >
+    {% csrf_token %}
+<button >priceprediction</button>
+    </form>
 
 
 
@@ -17,12 +27,26 @@
     <select name="name" required  >
             <option value="Restaurants">Restaurants</option>
             <option value="Resorts">Resorts</option>
-            <option value="Commercial Building">Commercial Building</option>
-            <option value="Residential Building">Residential Building</option>
+            <option value="CommercialBuilding">Commercial Building</option>
+            <option value="ResidentialBuilding">Residential Building</option>
             <option value="Airports">Airports</option>
             <option value="Bridges">Bridges</option>
             <option value="Roads">Roads</option>
             <option value="Highways">Highways</option>
+        <option value="Houses">Houses</option>
+            <option value="SubStations">SubStations</option>
+            <option value="Factory">Factory</option>
+            <option value="University">University</option>
+            <option value="PoliceStation">PoliceStation</option>
+            <option value="Schools">Schools</option>
+            <option value="Powerplant">Powerplant</option>
+            <option value="FunctionHall">FunctionHall</option>
+        <option value="Malls">Malls</option>
+            <option value="Bustand">Bustand</option>
+            <option value="Parks">Parks</option>
+            <option value="MovieTheatres">MovieTheatres</option>
+            <option value="Temples">Temples</option>
+            <option value="FunctionHall">FunctionHall</option>
 
     </select>
      cement quality
@@ -70,7 +94,18 @@
 </form>
 {% if data %}
 {% for d in data%}
+<div>
 {{d.ConstructionName}}
+    <br>
+{{d.ConstructionType}}<br>
+
+{{d.CementPrice}}<br>
+{{d.SandPrice}}<br>
+{{d.BrickPrice}}<br>
+{{d.IronPrice}}<br>
+{{d.Seller}}<br>
+{{d.Price}}<br>
+</div>
 <br>
 
 {%endfor%}
