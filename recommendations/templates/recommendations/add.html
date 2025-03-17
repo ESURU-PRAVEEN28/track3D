@@ -1,28 +1,11 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport"
-          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <title>Title</title>
 </head>
-<style>div{
-display :flex;
-border: solid black 2px;
-justify-content:center;
-width:300px;
-}</style>
 <body>
-<form  action="{% url 'recommend_material'%}" >
-    {% csrf_token %}
-<button >priceprediction</button>
-    </form>
-
-
-
-
-<form method="post" action="{% url 'userinput' %}">
+<form method="post" action="{% url 'add' %}">
     {% csrf_token %}
     <select name="name" required  >
             <option value="Restaurants">Restaurants</option>
@@ -49,6 +32,7 @@ width:300px;
             <option value="FunctionHall">FunctionHall</option>
 
     </select>
+    <input type="text" placeholder="enter construction name:" name="cn">
      cement quality
     <select name="cq">
             <option value="High">High</option>
@@ -88,72 +72,28 @@ width:300px;
             <option value="Hightemp" >Hightemp</option>
         <option selected></option>
          </select>
+    <br>
+    seller:
+    <select name="s">
+            <option value="tightsoil">tightsoil</option>
+            <option value="loosesoil">loosesoil</option>
+            <option value="humidity" >humidity</option>
+             <option value="heavyrain">heavyrain</option>
+            <option value="windy">windy</option>
+            <option value="Hightemp" >Hightemp</option>
+        <option selected></option>
+         </select>
+    <br>
+    <input type="number" name="cp" placeholder="enter the cementprice between 200 and 500" min=200 max=500><br>
+    <input type="number" name="bp" placeholder="enter the brickprice between 20 and 50" min=20 max="50"><br>
+    <input type="number" name="sp" placeholder="enter the sandprice between 200 and 500" min=200 max="500"><br>
+    <input type="number" name="ip" placeholder="enter the ironprice between 20000 and 50000" min="20000" max="50000"><br>
+    <input type="number" name="p" placeholder="enter the price between 200 and 500" min=2000000 max="5000000"><br>
 
     <button type="submit">submit</button>
 
 </form>
-{% if data %}
-{% for d in data%}
-<div>
-{{d.ConstructionName}}
-    <br>
-{{d.ConstructionType}}<br>
-
-{{d.CementPrice}}<br>
-{{d.SandPrice}}<br>
-{{d.BrickPrice}}<br>
-{{d.IronPrice}}<br>
-{{d.Seller}}<br>
-{{d.Price}}<br>
-</div>
-<br>
-
-{%endfor%}
-
-{%endif%}
 </body>
-
-
-
-
-<style>
-
-    form{
-
-    margin:auto;
-    margin-top:4rem;
-    margin-left:45%;
-
-    }
-    select{
-    display:flex;
-    padding:12px;
-    margin-bottom:16px;
-    background:black;
-    color:white;
-    width:10rem;
-    }
-
-
-    select:hover{
-    background:white;
-    color:black;
-    }
-
-    button{
-    color:white;
-    background:black;
-    padding:12px;
-    width:10rem;
-    }
-
-    button:hover
-    {
-    color:black;
-    background:white;
-    cursor:pointer;
-    }
-</style>
 
 
 </html>
