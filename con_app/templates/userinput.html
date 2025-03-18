@@ -21,9 +21,16 @@ width:300px;
 
 
 
+<form action="{% url 'custom_admin_login'%}">
+    <button>login for credentials
+    </button>
+</form>
 
+
+<button><a href="/add/">add data</a></button>
 <form method="post" action="{% url 'userinput' %}">
     {% csrf_token %}
+
     <select name="name" required  >
             <option value="Restaurants">Restaurants</option>
             <option value="Resorts">Resorts</option>

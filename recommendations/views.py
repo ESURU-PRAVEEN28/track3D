@@ -4,6 +4,9 @@ from django.shortcuts import render
 from django.shortcuts import render,HttpResponse
 from .ml_model import predict_price,add_new_data,retrain_model
 from django.views.decorators.csrf import csrf_exempt
+from con_app.models import Construction
+import pandas as pd
+import os
 
 
 @csrf_exempt
@@ -27,6 +30,36 @@ def recommend_material(request):
 
     return render(request, "recommendations/form.html")
 
+def import_file():
+    # Path to the CSV file (you can adjust this based on where your file is)
+    BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+    DATASET_PATH = os.path.join(BASE_DIR, "construction_data.csv")
+
+    # Read the CSV file using pandas
+    df = pd.read_csv(DATASET_PATH)
+
+    # Loop through each row in the dataframe and save it to the database
+    for _, row in df.iterrows():
+        # Create and save a new Student instance for each row
+        student = Construction(
+            ConstructionType=row['ConstructionType'],
+            ConstructionName=row['ConstructionName'],
+            CementQuality=row['CementQuality'],
+            CementPrice=row['CementPrice'],
+            BrickQuality=row['BrickQuality'],
+            BrickPrice=row['BrickPrice'],
+            SandQuality=row['SandQuality'],
+            SandPrice=row['SandPrice'],
+            IronQuality=row['IronQuality'],
+            IronPrice=row['IronPrice'],
+            EnvironmentalCondition=row['EnvironmentalCondition'],
+            Seller=row['Seller'],
+            Price=row['Price']
+        )
+
+        student.save()
+
+
 
 def add(request):
     if request.method =="POST":
@@ -46,7 +79,7 @@ def add(request):
                     "IronPrice": request.POST.get('ip'),
                     "EnvironmentalCondition": request.POST.get('ec'),
                     "Seller": request.POST.get('s'),
-                    "Price": request.POST.get('p'),
+                    "Price": request.POST.get('p')
                 },
                 # Add more rows if needed
             ]
@@ -55,6 +88,10 @@ def add(request):
 
 
             retrain_model()
+            Construction.objects.all().delete()
+            import_file()
+
+
 
             return HttpResponse("new data added:")
     return render(request,'recommendations/add.html')

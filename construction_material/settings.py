@@ -51,8 +51,12 @@ MIDDLEWARE = [
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
-]
+    # 'con_app.middleware.ForceReLoginMiddleware',
 
+]
+SESSION_EXPIRE_AT_BROWSER_CLOSE = True
+SESSION_COOKIE_AGE = 5
+LOGIN_REDIRECT_URL = '/admin/'
 ROOT_URLCONF = 'construction_material.urls'
 
 TEMPLATES = [
