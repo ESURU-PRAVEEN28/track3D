@@ -6,7 +6,7 @@ class Con(admin.ModelAdmin):
     list_display = ["ConstructionType"	,"ConstructionName" ,
                     "CementQuality"	,"CementPrice",
                     "BrickQuality"	,"BrickPrice",
-                    "SandQuality",	"SandPrice"]
+                    "SandQuality",	"SandPrice" , "Seller"]
 class ConstructionResource(resources.ModelResource):
     class Meta:
         model = Construction

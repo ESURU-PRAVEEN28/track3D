@@ -1,0 +1,30 @@
+{% extends 'master.html'%}
+{% load static %}
+{% block title %}<title>Home</title>{% endblock %}
+
+{% block content %}
+{% for d in da%}
+<div class="filt">
+  <div class="fill">
+
+        <h4>{{d.ConstructionName}}</h4>
+        <h4>{{d.ConstructionType}}</h4>
+        <h4>{{d.CementQuality}}</h4>
+        <h4>{{d.SandQuality}}</h4>
+        <h4>{{d.BrickQuality}}</h4>
+        <h4>{{d.IronQuality}}</h4>
+        <h4>{{d.CementPrice}}</h4>
+        <h4>{{d.SandPrice}}</h4>
+        <h4>{{d.BrickPrice}}</h4>
+        <h4>{{d.IronPrice}}</h4>
+        <h4>{{d.Seller}}</h4>
+        <h4>{{d.Price}}</h4>
+
+
+    </div>
+</div>
+<style></style>
+{%endfor%}
+
+
+{%endblock%}

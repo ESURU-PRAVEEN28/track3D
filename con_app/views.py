@@ -66,4 +66,19 @@ def custom_admin_login(request):
 
 
 
+@csrf_exempt
+def viewdetails(request):
+    if request.method =="POST":
+        cn=request.POST.get("cn")
+        ct=request.POST.get("ct")
+        data=Construction.objects.filter(ConstructionType=ct,ConstructionName=cn)
+        print(data)
+    return render(request,"viewdetails.html",{"da":data})
+
+
+
+
+
+
+
 
