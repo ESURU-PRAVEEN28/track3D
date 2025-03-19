@@ -38,31 +38,13 @@ def userinput(request):
             filter_conditions["ConstructionType"] = name
         data1 = Construction.objects.filter(**filter_conditions)
         return render(request, "userinput.html", {"data": data1})
-    return render(request, "userinput.html")
+    return render(request, "userinput.html",{"data":False})
+
 
 
 # myapp/views.py
-from django.contrib.auth.forms import AuthenticationForm
-from django.contrib.auth import login
-from django.contrib.auth.decorators import login_required
-from django.shortcuts import render, redirect
-from django.contrib.auth import authenticate
 
-@login_required
-def custom_admin_login(request):
-    """
-    Forces password entry every time before accessing the admin page.
-    """
-    if request.method == 'POST':
-        form = AuthenticationForm(request, data=request.POST)
-        if form.is_valid():
-            user = form.get_user()
-            login(request, user)
-            return redirect('/admin/')
-    else:
-        form = AuthenticationForm()
 
-    return render(request, 'admin/login.html', {'form': form})
 
 
 
@@ -74,6 +56,10 @@ def viewdetails(request):
         data=Construction.objects.filter(ConstructionType=ct,ConstructionName=cn)
         print(data)
     return render(request,"viewdetails.html",{"da":data})
+
+
+def sellerdetails(request):
+    return HttpResponse("this is seller details:")
 
 
 

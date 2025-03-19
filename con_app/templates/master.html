@@ -8,9 +8,12 @@
 </head>
 <style>/* Navbar container */
 .navbar {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+        display: flex
+;
+    flex-direction: column-reverse;
+    justify-content: right;
+    align-items: flex-end;
+    margin-bottom:30px;
     padding: 10px 20px;
     background-color: #343a40; /* Dark gray background */
     color: #ffffff; /* White text */
@@ -82,7 +85,7 @@
         width: 200px;
         background-color: #343a40;
         border-radius: 8px;
-        flex-direction: column; /* Stack links vertically */
+        flex-direction-right: column; /* Stack links vertically */
         gap: 10px;
     }
 
@@ -96,7 +99,7 @@
         <div class="menu-toggle" onclick="toggleMenu()">☰</div>
         <div class="nav-links">
              <a href="{% url 'userinput' %}">Filters</a>
-                <a href="{% url 'custom_admin_login' %}">Admin Login</a>
+                <a href="{% url 'admin_login' %}">Admin Login</a>
                 <a href="{% url 'contact'%}">Contact us</a>
               <a href="{% url 'add'%}">Add Data</a>
 
@@ -130,7 +133,7 @@
             <h3>Quick Links</h3>
             <ul>
                 <li><a href="{% url 'userinput' %}">Filters</a></li>
-                <li><a href="{% url 'custom_admin_login' %}">Admin Login</a></li>
+                <li><a href="{% url 'admin_login' %}">Admin Login</a></li>
                 <li><a href="{% url 'contact'%}">Contact us</a></li>
               <li><a href="{% url 'add'%}">Add Data</a></li>
 
@@ -176,6 +179,7 @@
     color: #ffffff; /* White text */
     padding: 40px 20px 20px;
     font-family: Arial, sans-serif;
+    margin-top:30px;
 }
 .footer-container {
     display: flex;

@@ -97,3 +97,8 @@ def add(request):
     return render(request,'recommendations/add.html')
 
 
+
+def environ(request):
+    return HttpResponse("this is about conditions")
+
+

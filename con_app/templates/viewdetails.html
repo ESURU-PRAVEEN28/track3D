@@ -5,25 +5,77 @@
 {% block content %}
 {% for d in da%}
 <div class="filt">
+      <h1 class="fill">Project Details</h1>
   <div class="fill">
 
-        <h4>{{d.ConstructionName}}</h4>
-        <h4>{{d.ConstructionType}}</h4>
-        <h4>{{d.CementQuality}}</h4>
-        <h4>{{d.SandQuality}}</h4>
-        <h4>{{d.BrickQuality}}</h4>
-        <h4>{{d.IronQuality}}</h4>
-        <h4>{{d.CementPrice}}</h4>
-        <h4>{{d.SandPrice}}</h4>
-        <h4>{{d.BrickPrice}}</h4>
-        <h4>{{d.IronPrice}}</h4>
-        <h4>{{d.Seller}}</h4>
-        <h4>{{d.Price}}</h4>
+        <h4 class="name">  {{d.ConstructionName}}</h4>
+        <h4 class="name">  {{d.ConstructionType}}</h4>
+        <h4>Cement Quality:  {{d.CementQuality}}</h4>
+        <h4>Sand Quality:  {{d.SandQuality}}</h4>
+        <h4>Brick Quality:  {{d.BrickQuality}}</h4>
+        <h4>Iron Price:  {{d.IronQuality}}</h4>
+        <h4>Cement Price:  {{d.CementPrice}}</h4>
+        <h4>Sand Price:  {{d.SandPrice}}</h4>
+        <h4>Brick Price:  {{d.BrickPrice}}</h4>
+        <h4>Iron Price:  {{d.IronPrice}}</h4>
+        <a href="{%url 'environmental condition'%}" style="text-decoration:none"><h4>Enviromental Condition :  {{d.EnvironmentalCondition}}<color>solutions</color></h4></a>
+       <a href="{%url 'sellerdetails'%}" style="text-decoration:none"> <h4>Seller Details: {{d.Seller}}           <color>view</color></h4></a>
+        <h4 class="price">Price Of The Project: {{d.Price}}</h4>
 
 
     </div>
 </div>
-<style></style>
+<style>
+      body {
+
+    margin: 0;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+<!--    min-height: 100vh;-->
+}
+
+      .filt{
+            border: solid black 2px;
+            margin: 10%;
+            width:fit;
+            height:fit;
+            margin-left:25%;
+            margin-right:25%;
+<!--            margin-bottom:10%;-->
+
+
+
+
+      }
+      h4{
+
+<!--            padding-left:30px;-->
+            margin:3px;
+
+            }
+      h1{
+<!--            margin-left:25%;-->
+      }
+a h4{
+
+      color:black;
+}
+color{
+color:red;
+}
+    .fill{
+    width:fit;
+    text-align:center;
+    }
+.price{
+    background:yellow;
+    height:30px;
+    margin:0px;
+    color:red;
+
+}
+</style>
 {%endfor%}
 
 

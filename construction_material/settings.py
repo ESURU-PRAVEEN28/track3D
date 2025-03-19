@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-6%i2-mg9%#9y0qz+p2nt@geng!*$oa669ak(fu*wc*evi_svdr
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ["*"]
 
 
 # Application definition
@@ -54,9 +54,7 @@ MIDDLEWARE = [
     # 'con_app.middleware.ForceReLoginMiddleware',
 
 ]
-SESSION_EXPIRE_AT_BROWSER_CLOSE = True
-SESSION_COOKIE_AGE = 5
-LOGIN_REDIRECT_URL = '/admin/'
+
 ROOT_URLCONF = 'construction_material.urls'
 
 TEMPLATES = [

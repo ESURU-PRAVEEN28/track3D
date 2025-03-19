@@ -3,25 +3,13 @@
 {% block title %}<title>Home</title>{% endblock %}
 
 {% block content %}
-<!--<form  action="{% url 'recommend_material'%}" >-->
-<!--    {% csrf_token %}-->
-<!--<button >priceprediction</button>-->
-<!--    </form>-->
-
-
-
-<!--<form action="{% url 'custom_admin_login'%}">-->
-<!--    <button>login for credentials-->
-<!--    </button>-->
-<!--</form>-->
-
-
-<!--<button><a href="/add/">add data</a></button>-->
+{% if data == False%}
 <form method="post" action="{% url 'userinput' %}">
     {% csrf_token %}
-<br>
-    <div class = "name">
-    <select name="name" required  >
+    <br>
+    <div class="name">
+        <label for="name">Construction Type</label>
+        <select name="name" required>
             <option value="Restaurants">Restaurants</option>
             <option value="Resorts">Resorts</option>
             <option value="CommercialBuilding">Commercial Building</option>
@@ -30,7 +18,7 @@
             <option value="Bridges">Bridges</option>
             <option value="Roads">Roads</option>
             <option value="Highways">Highways</option>
-        <option value="Houses">Houses</option>
+            <option value="Houses">Houses</option>
             <option value="SubStations">SubStations</option>
             <option value="Factory">Factory</option>
             <option value="University">University</option>
@@ -38,199 +26,197 @@
             <option value="Schools">Schools</option>
             <option value="Powerplant">Powerplant</option>
             <option value="FunctionHall">FunctionHall</option>
-        <option value="Malls">Malls</option>
+            <option value="Malls">Malls</option>
             <option value="Bustand">Bustand</option>
             <option value="Parks">Parks</option>
             <option value="MovieTheatres">MovieTheatres</option>
             <option value="Temples">Temples</option>
-            <option value="FunctionHall">FunctionHall</option>
-
-    </select><br>
-        </div>
-    <div class="cement quality">
-     <label>cement quality</label>
-    <select name="cq">
-            <option value="High">High</option>
-            <option value="Low">Low</option>
-            <option value="Medium" >Medium</option>
-        <option  selected></option>
-    </select><br>
-        </div>
-    <div class="brick quality">
-    <label>brick quality</label>
-    <select name="bq">
-            <option value="High">High</option>
-            <option value="Low">Low</option>
-            <option value="Medium" >Medium</option>
-        <option selected></option>
-    </select><br>
-        </div>
-    <div class ="sand quality">
-    <label>sand quality</label>
-    <select name="sq">
-            <option value="High">High</option>
-            <option value="Low">Low</option>
-            <option value="Medium" >Medium</option>
-        <option selected></option>
-    </select>
-    <br>
-        </div>
-    <div class=" iron quality">
-     <label>Iron quality</label>
-    <select name="iq">
-            <option value="High">High</option>
-            <option value="Low">Low</option>
-            <option value="Medium" >Medium</option>
-        <option selected></option>
-    </select>
-        </div>
-        <br>
-    <div class="Environmental Condition">
-        <label>Environmental Condition:</label>
-         <select name="ec">
-            <option value="tightsoil">tightsoil</option>
-            <option value="loosesoil">loosesoil</option>
-            <option value="humidity" >humidity</option>
-             <option value="heavyrain">heavyrain</option>
-            <option value="windy">windy</option>
-            <option value="Hightemp" >Hightemp</option>
-        <option selected></option>
-         </select>
-        </div>
-
-    <button type="submit">submit</button>
-
-</form>
-<div class="filterdata">
-{% if data %}
-{% for d in data%}
-<form method="post" action="{% url 'viewdetails'%}">
-    {% csrf_token %}
-
-    <div class="fill">
-        <h4>{{d.ConstructionName}}</h4>
-        <h4>{{d.ConstructionType}}</h4>
-        <h4>{{d.CementPrice}}</h4>
-        <h4>{{d.SandPrice}}</h4>
-        <h4>{{d.BrickPrice}}</h4>
-        <h4>{{d.IronPrice}}</h4>
-        <h4>{{d.Seller}}</h4>
-        <h4>{{d.Price}}</h4>
-        <input type="hidden" value={{d.ConstructionName}} name="cn">
-        <input type="hidden" value={{d.ConstructionType}} name="ct">
-        <button type="submit" >check details</button>
-
+        </select>
     </div>
-</a></form>
-{%endfor%}
 
+    <div class="cement quality">
+        <label>Cement Quality</label>
+        <select name="cq" required>
+            <option value="High">High</option>
+            <option value="Low">Low</option>
+            <option value="Medium">Medium</option>
+            <option value="" selected></option>
+        </select>
+    </div>
+
+    <div class="brick quality">
+        <label>Brick Quality</label>
+        <select name="bq" required>
+            <option value="High">High</option>
+            <option value="Low">Low</option>
+            <option value="Medium">Medium</option>
+            <option value="" selected></option>
+        </select>
+    </div>
+
+    <div class="sand quality">
+        <label>Sand Quality</label>
+        <select name="sq" required>
+            <option value="High">High</option>
+            <option value="Low">Low</option>
+            <option value="Medium">Medium</option>
+            <option value="" selected></option>
+        </select>
+    </div>
+
+    <div class="iron quality">
+        <label>Iron Quality</label>
+        <select name="iq" required>
+            <option value="High">High</option>
+            <option value="Low">Low</option>
+            <option value="Medium">Medium</option>
+            <option value="" selected></option>
+        </select>
+    </div>
+
+    <div class="Environmental Condition">
+        <label>Environmental Condition</label>
+        <select name="ec" required>
+            <option value="tightsoil">Tight Soil</option>
+            <option value="loosesoil">Loose Soil</option>
+            <option value="humidity">Humidity</option>
+            <option value="heavyrain">Heavy Rain</option>
+            <option value="windy">Windy</option>
+            <option value="Hightemp">High Temperature</option>
+            <option value="" selected></option>
+
+        </select>
+    </div>
+
+    <button type="submit">Submit</button>
+</form>
 {%endif%}
+
+<div class="filterdata">
+    {% if data %}
+        {% for d in data %}
+            <form method="post" action="{% url 'viewdetails'%}">
+                {% csrf_token %}
+                <div class="fill">
+                    <h2>Project Info</h2>
+                    <h4>{{ d.ConstructionName }}</h4>
+                    <h4>{{ d.ConstructionType }}</h4>
+                    <h4>Cement Price: {{ d.CementPrice }}</h4>
+                    <h4>Sand Price: {{ d.SandPrice }}</h4>
+                    <h4>Brick Price: {{ d.BrickPrice }}</h4>
+                    <h4>Iron Price: {{ d.IronPrice }}</h4>
+                    <h4>Seller: {{ d.Seller }}</h4>
+                    <h4>Total Price: {{ d.Price }}</h4>
+                    <input type="hidden" value="{{ d.ConstructionName }}" name="cn">
+                    <input type="hidden" value="{{ d.ConstructionType }}" name="ct">
+                    <button type="submit">Check Details</button>
+                </div>
+            </form>
+        {% endfor %}
+    {% endif %}
 </div>
 
-
-
-
 <style>
-body {
+    /* Background Gradient */
+    body {
+        margin: 0;
+        font-family: Arial, sans-serif;
+        background: linear-gradient(135deg, #1e3c72, #2a5298);
 
-    margin: 0;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    min-height: 100vh;
-}
-
-
-form {
-    background: white;
-    padding: 20px;
-    border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    max-width: 400px;
-    margin:auto;
-    margin-top:20px;
-    width: 100%;
-}
-
-label {
-    font-weight: bold;
-    display: block;
-    margin-top: 10px;
-    color: #333;
-}
-
-select {
-    width: 100%;
-    padding: 10px;
-    margin-top: 5px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    background: #fff;
-    color: #333;
-}
-
-h4{
-margin:0px;
-}
-
-button {
-    margin-top: 15px;
-    width: 100%;
-    padding: 10px;
-    border: none;
-    background: #007BFF;
-    color: white;
-    font-size: 16px;
-    cursor: pointer;
-    border-radius: 5px;
-    transition: background 0.3s;
-}
-
-button:hover {
-    background: #0056b3;
-}
-
-/* Filtered Data Styling */
-.filterdata {
-
-  display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); /* Responsive grid */
-    gap: 20px;
-    margin:auto;
-    margin-top:3rem;
-
-}
-
-.fill {
-   background-color: #ffffff;
-    box-shadow: 0 11px 20px rgba(0, 0, 0, 0.4);
-    border-radius: 12px;
-    padding: 10px;
-    text-align: left;
-    transform: scale(1);
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
-    display: flex;
-    flex-direction: column;
-
-    height: 180px; /* Fixed height to make all cards equal */
-}
-
-/* Responsive Design */
-@media (max-width: 480px) {
+        align-items: center;
+        justify-content: center;
+        min-height: 100vh;
+    }
+h2,h4{color:black}
+    /* Form Styling */
     form {
+        background: rgba(255, 255, 255, 0.15);
+        padding: 20px;
+        border-radius: 10px;
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+        max-width: 400px;
+        width: 100%;
+        margin: 20px auto;
+        backdrop-filter: blur(10px);
+        color: white;
+    }
+
+    label {
+        font-weight: bold;
+        display: block;
+        margin: 10px 0 5px;
+    }
+
+    select {
+        width: 100%;
+        padding: 10px;
+        border-radius: 5px;
+        border: 1px solid rgba(255, 255, 255, 0.3);
+        background: rgba(255, 255, 255, 0.1);
+        color: white;
+    }
+    option{color:black}
+
+    button {
+        width: 100%;
+        padding: 10px;
+        border: none;
+        background: #ff8c00;
+        color: white;
+        font-size: 16px;
+        cursor: pointer;
+        border-radius: 5px;
+        transition: 0.3s;
+    }
+
+    button:hover {
+        background: #e07b00;
+    }
+
+    /* Filtered Data Styling */
+    .filterdata {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+        gap: 20px;
+        margin: 3rem auto;
+        width: 80%;
+    }
+
+    .fill {
+        background-color: white;
+        box-shadow: 0 11px 20px rgba(0, 0, 0, 0.4);
+        border-radius: 12px;
         padding: 15px;
+        text-align: center;
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
     }
 
-    select, button {
-        font-size: 14px;
-        padding: 8px;
+    .fill:hover {
+        transform: scale(1.05);
+        box-shadow: 0 15px 25px rgba(0, 0, 0, 0.5);
     }
-}
+
+    /* Responsive Design */
+    @media (max-width: 768px) {
+        form {
+            width: 90%;
+        }
+
+        .filterdata {
+            width: 95%;
+        }
+    }
+
+    @media (max-width: 480px) {
+        form {
+            padding: 15px;
+        }
+
+        select, button {
+            font-size: 14px;
+            padding: 8px;
+        }
+    }
 </style>
-
-
-
-
-
 
 {% endblock %}
