@@ -3,9 +3,90 @@
 {% block title %}<title>Home</title>{% endblock %}
 
 {% block content %}
+<br>
+    <br>
+    <br>
+<div class="con">
 
-    <h2>Predicted Construction Cost: ₹{{ predicted_price }}</h2>
-    <a href="{% url 'recommend_material' %}">Try Again</a>
+    <h1>Predicted Construction Cost: ₹{{ predicted_price }}</h1>
+    <button><a href="{% url 'recommend_material' %}" style="text-decoration:none; color: inherit;">Try Again</a></button>
 
+</div>
+<br>
+    <br><br>
 
-{%endblock%}
+<style>
+   body {
+        margin: 0;
+        font-family: Arial, sans-serif;
+        background: linear-gradient(135deg, #1e3c72, #2a5298);
+<!--        display: flex;-->
+<!--        flex-direction: column;-->
+        align-items: center;
+        justify-content: center;
+        min-height: 100vh;
+    }
+
+    /* Container */
+    .con {
+        text-align: center;
+        background: rgba(255, 255, 255, 0.15);
+        border: 2px solid rgba(255, 255, 255, 0.3);
+        border-radius: 10px;
+        padding: 30px;
+        width: 90%;
+        max-width: 400px;
+        margin-top:500px;
+        margin-bottom:100px;
+        margin: auto;
+        gap:20px;
+        box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+        backdrop-filter: blur(10px);
+        color: white;
+    }
+
+    h1 {
+        font-size: 1.5rem;
+        margin-bottom: 50px;
+<!--        margin:40px;-->
+    }
+
+    button {
+        background: #ff9800;
+        border: none;
+        padding: 10px 20px;
+        font-size: 1rem;
+        font-weight: bold;
+        color: white;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: background 0.3s ease;
+    }
+
+    button:hover {
+        background: #e68900;
+    }
+
+    a {
+        text-decoration: none;
+        color: inherit;
+        display: block;
+    }
+
+    @media (max-width: 600px) {
+        .con {
+            padding: 20px;
+            width: 95%;
+        }
+        h1 {
+<!--        margin:20px;-->
+            font-size: 1.2rem;
+        }
+        button {
+            font-size: 0.9rem;
+            padding: 8px 16px;
+        }
+    }
+</style>
+
+{% endblock %}

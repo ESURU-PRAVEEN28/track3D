@@ -7,5 +7,4 @@ urlpatterns = [
 path("add/", add, name="add"),
     path('environmental condition/',environ,name="environmental condition"),\
 path("admin-login/", admin_login, name="admin_login"),
-
 ]
