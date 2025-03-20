@@ -2,27 +2,59 @@
 {% load static %}
 {% block title %}<title>Home</title>{% endblock %}
 {% block extra_css %}  <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: auto;
-            padding: auto;
-<!--            display: flex;-->
-<!--            justify-content: center;-->
-            align-items: center;
-            height: 100vh;
-            background-color: #f4f4f4;
-        }
-        .container {
 
-        margin:30px;
-        margin-left:35%;
-            background: white;
-            padding: 20px;
-            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
-            border-radius: 8px;
-            width: 100%;
-            max-width: 400px;
-        }
+body {
+    margin: auto;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #1e3c72, #2a5298);
+<!--    display: flex;-->
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+<!--    padding: 20px;-->
+}
+
+/* Container */
+.con {
+    text-align: center;
+    background: rgba(255, 255, 255, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: 12px;
+    padding: 25px;
+    width: 90%;
+    max-width: 500px;
+    margin: 20px auto;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2);
+    backdrop-filter: blur(15px);
+    color: white;
+}
+p{
+color:white;
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+    .con {
+        width: 95%;
+        padding: 5px;
+    }
+
+    label {
+        font-size: 14px;
+    }
+
+    select {
+        font-size: 13px;
+    }
+
+    button {
+        font-size: 16px;
+        padding: 10px;
+    }
+
+}
+
+
         label {
             font-weight: bold;
             display: block;
@@ -56,11 +88,11 @@
 
 
 
-    <div class="container">
+    <div class="con">
         <h2>Contact Us</h2>
         {% if messages %}
             {% for message in messages %}
-                <p style="color: green;">{{ message }}</p>
+                <p style="color: white;">{{ message }}</p>
             {% endfor %}
         {% endif %}
         <form method="post">

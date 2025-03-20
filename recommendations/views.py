@@ -93,7 +93,7 @@ def add(request):
 
 
 
-            return HttpResponse("new data added:")
+            return render(request,'recommendations/add.html')
     return render(request,'recommendations/add.html')
 
 

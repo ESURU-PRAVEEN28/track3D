@@ -615,3 +615,6 @@ Restaurants,Chinoo,Low,200,High,20,Medium,200,High,20000,loosesoil,heavyrain,200
 Restaurants,Chinoo,Low,200,High,20,Medium,200,High,20000,loosesoil,heavyrain,2000000
 Highways,avanthi resort,High,200,Low,20,High,200,Low,20000,tightsoil,heavyrain,2000000
 Highways,ichapuram national highway,Low,200,Low,20,Medium,200,,20000,tightsoil,loosesoil,2000000
+Factory,Raj factory,Low,300,Medium,30,High,370,Low,38000,loosesoil,Ambuja Cements,2400000
+Factory,Rajeswari factory,Low,300,Medium,30,High,370,Low,38000,loosesoil,Ambuja Cements,2400000
+Resorts,,,,,,,,,,,,
