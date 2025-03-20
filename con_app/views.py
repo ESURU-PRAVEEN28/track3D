@@ -63,6 +63,11 @@ def sellerdetails(request):
 
 
 
+def home(request):
+    return render(request,"Home.html")
+
+
+
 
 
 

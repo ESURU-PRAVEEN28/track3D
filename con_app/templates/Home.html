@@ -1,0 +1,166 @@
+{% extends 'master.html'%}
+{% load static %}
+{% block title %}<title>Home</title>{% endblock %}
+{% block extra_css %}<style> body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background-color: black;
+    padding: 3% 5%;
+}
+
+.header h1 {
+    color: white;
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+
+.description {
+    color: white;
+    font-size: 1.2rem;
+    max-width: 800px;
+    line-height: 1.6;
+}
+
+.bts {
+    margin-top: 20px;
+}
+
+.bts a {
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    font-size: 1.2rem;
+    font-weight: bold;
+    border: 2px solid yellow;
+    background-color: red;
+    padding: 15px 30px;
+    border-radius: 10px;
+    transition: all 0.3s ease;
+}
+
+.bts a:hover {
+    background-color: yellow;
+    color: black;
+    border-color: red;
+}
+
+.navbar1 {
+    padding: 20px;
+    text-align: center;
+
+    background-color: black;
+    color: white;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.container {
+overlap:hidden;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 15px;
+    padding: 20px;
+    justify-content: center;
+    text-align: center;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+}
+
+.con {
+    border: 2px solid black;
+    padding: 15px;
+    background-color: white;
+    border-radius: 8px;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+.con:hover {
+    background-color: #00bcd4;
+    color: white;
+    transform: scale(1.05);
+}
+
+.con a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    transition: color 0.3s ease;
+}
+
+.con:hover a {
+    color: white;
+}
+
+@media (max-width: 768px) {
+    .header h1 {
+        font-size: 2rem;
+    }
+    .description {
+        font-size: 1rem;
+    }
+    .bts a {
+        font-size: 1rem;
+        padding: 12px 25px;
+    }
+    .navbar {
+        font-size: 1.2rem;
+    }
+}
+
+
+</style>{% endblock %}
+{% block content %}
+    <div class="main" style="background-color: black ;" >
+    <div class="header" ><h1 style="color: white ">Prediction</h1></div>
+
+
+    <div class="description" style="color: white ">A Construction Material Recommendation System is an AI-driven tool designed to help users select the most suitable building materials based on factors like budget, durability, climate, and sustainability. By analyzing user inputs, it provides tailored recommendations that optimize cost-effectiveness and quality. The system integrates supplier databases and real-time market trends, allowing users to compare materials based on performance and price. Machine learning enhances its accuracy over time, ensuring better decision-making for architects, engineers, and contractors. Additionally, it promotes sustainability by suggesting eco-friendly materials and reducing waste.
+         Automation streamlines the procurement process, saving time and improving construction efficiency.</div>
+
+
+
+         <div class="bts"><a href="{% url 'recommend_material' %}" style="text-decoration: none;">Predict</a></div>
+
+        </div>
+
+
+
+        <div class="navbar1" > <h1><nav>our services</nav></h1></div>
+        <div class="container">
+
+     <div class="flex">
+
+        <div class="con"><a href="{% url 'userinput' %}">Filters</a></div>
+        <div class="con"><a href="{% url 'admin_login' %}">Admin Login</a></div>
+        <div class="con"><a href="{% url 'recommend_material' %}">Predict</a></div>
+        <div class="con"><a href="{% url 'adddata'%}">Add Data</a></div>
+        <div class="con"><a href="{% url 'contact'%}">Contact Us</a></div>
+
+    </div>
+</div>
+<br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+
+
+
+{%endblock%}
