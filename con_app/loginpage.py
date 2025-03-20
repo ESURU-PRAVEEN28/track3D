@@ -16,3 +16,16 @@ def admin_login(request):
             messages.error(request, "Invalid credentials or not an admin.")
 
     return render(request, "loginpage.html")
+
+
+
+def adddata(request):
+    if request.method == "POST":
+        username1 = request.POST["username"]
+        password1 = request.POST["password"]
+        if username1 == "admin" and password1 =="admin":
+            return render(request,"recommendations/add.html")  # Redirect to Django Admin
+        else:
+            messages.error(request, "Invalid credentials or not an admin.")
+
+    return render(request, "adddata.html")

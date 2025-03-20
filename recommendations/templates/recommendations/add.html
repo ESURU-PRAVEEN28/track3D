@@ -34,7 +34,7 @@
 
     </select>
     <label>Construction Name</label>
-    <input type="text" placeholder="enter construction name:" name="cn">
+    <input type="text" placeholder=" enter construction name" name="cn">
      <label>Cement Quality</label>
     <select name="cq">
             <option value="High">High</option>
@@ -102,6 +102,12 @@ body {
     min-height: 100vh;
 <!--    padding: 20px;-->
 }
+input::placeholder {
+    color: white;
+    opacity: 1; /* Ensures full color visibility */
+    text-align:center;
+}
+
 
 /* Container */
 .con {

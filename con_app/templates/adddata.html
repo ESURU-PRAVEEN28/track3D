@@ -14,12 +14,12 @@
     {% endif %}
 
     <div class="inner">
-        <form method="POST">
+        <form method="POST" action="{% url 'adddata'%}">
             {% csrf_token %}
-            <label for="username">Username:</label>
+            <label >Username:</label>
             <input type="text" name="username" required>
             <br>
-            <label for="password">Password:</label>
+            <label >Password:</label>
             <input type="password" name="password" required>
             <br>
             <button type="submit">Login</button>
@@ -39,12 +39,6 @@
         justify-content: center;
         min-height: 100vh;
     }
-
-    input::placeholder {
-    color: white;
-    opacity: 1; /* Ensures full color visibility */
-    text-align:center;
-}
 
     /* Container */
     .con {
