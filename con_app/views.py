@@ -1,5 +1,5 @@
 from django.shortcuts import render,HttpResponse
-from .models import Construction
+from .models import Construction,EnvironmentalCondition
 from django.views.decorators.csrf import csrf_exempt
 
 
@@ -33,7 +33,8 @@ def userinput(request):
 
             filter_conditions["IronQuality"] = iq
         if ec:  # Add only if not empty
-            filter_conditions["EnvironmentalCondition"] = ec
+            env_condition = EnvironmentalCondition.objects.get(condition=ec)
+            filter_conditions["EnvironmentalCondition"] = env_condition
         if name:
             filter_conditions["ConstructionType"] = name
         data1 = Construction.objects.filter(**filter_conditions)

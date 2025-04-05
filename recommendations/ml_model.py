@@ -89,7 +89,7 @@ def add_new_data(new_data):
     try:
         # Create a DataFrame from new data
         new_df = pd.DataFrame(new_data)
-
+        print(new_df)
         # Check if the dataset already exists
         if os.path.exists(DATASET_PATH):
             # Append data without writing the header again

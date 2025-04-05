@@ -4,7 +4,7 @@ from django.shortcuts import render
 from django.shortcuts import render,HttpResponse
 from .ml_model import predict_price,add_new_data,retrain_model
 from django.views.decorators.csrf import csrf_exempt
-from con_app.models import Construction
+from con_app.models import Construction, EnvironmentalCondition, Seller
 import pandas as pd
 import os
 
@@ -40,6 +40,10 @@ def import_file():
 
     # Loop through each row in the dataframe and save it to the database
     for _, row in df.iterrows():
+
+        rry = EnvironmentalCondition.objects.get(condition=row['EnvironmentalCondition'])
+        rrys = Seller.objects.get(name=row['Seller'])
+
         # Create and save a new Student instance for each row
         student = Construction(
             ConstructionType=row['ConstructionType'],
@@ -52,8 +56,8 @@ def import_file():
             SandPrice=row['SandPrice'],
             IronQuality=row['IronQuality'],
             IronPrice=row['IronPrice'],
-            EnvironmentalCondition=row['EnvironmentalCondition'],
-            Seller=row['Seller'],
+            EnvironmentalCondition=rry,
+            Seller=rrys,
             Price=row['Price']
         )
 
@@ -63,6 +67,8 @@ def import_file():
 
 def add(request):
     if request.method =="POST":
+            rry = EnvironmentalCondition.objects.get(condition=request.POST.get('ec'))
+            rrys = Seller.objects.get(name=request.POST.get('s'))
 
     # Example: Add new data
             new_data = [
@@ -77,8 +83,8 @@ def add(request):
                     "SandPrice": request.POST.get('sp'),
                     "IronQuality": request.POST.get('iq'),
                     "IronPrice": request.POST.get('ip'),
-                    "EnvironmentalCondition": request.POST.get('ec'),
-                    "Seller": request.POST.get('s'),
+                    "EnvironmentalCondition": rry,
+                    "Seller": rrys,
                     "Price": request.POST.get('p')
                 },
                 # Add more rows if needed

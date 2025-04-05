@@ -98,6 +98,7 @@
             <form method="post" action="{% url 'viewdetails'%}">
                 {% csrf_token %}
                 <div class="fill">
+
                     <h2>Project Info</h2>
                     <h4>{{ d.ConstructionName }}</h4>
                     <h4>{{ d.ConstructionType }}</h4>
@@ -110,6 +111,8 @@
                     <input type="hidden" value="{{ d.ConstructionName }}" name="cn">
                     <input type="hidden" value="{{ d.ConstructionType }}" name="ct">
                     <button type="submit">Check Details</button>
+
+
                 </div>
             </form>
         {% endfor %}
@@ -129,6 +132,18 @@
     }
 h2,h4{color:black}
     /* Form Styling */
+    .filterdata form{
+        background: rgba(255, 255, 255, 0.15);
+        padding:1px;
+        border-radius: 10px;
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.9);
+        max-width: 400px;
+        height:fit-content;
+        width: 100%;
+        margin: 20px auto;
+        backdrop-filter: blur(10px);
+        color: white;
+    }
     form {
         background: rgba(255, 255, 255, 0.15);
         padding: 20px;
@@ -172,6 +187,7 @@ h2,h4{color:black}
     button:hover {
         background: #e07b00;
     }
+
 
     /* Filtered Data Styling */
     .filterdata {
