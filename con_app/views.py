@@ -1,5 +1,5 @@
 from django.shortcuts import render,HttpResponse
-from .models import Construction,EnvironmentalCondition
+from .models import Construction, EnvironmentalCondition, Seller
 from django.views.decorators.csrf import csrf_exempt
 
 
@@ -58,8 +58,14 @@ def viewdetails(request):
         print(data)
     return render(request,"viewdetails.html",{"da":data})
 
-
+@csrf_exempt
 def sellerdetails(request):
+    s = request.POST.get("s")
+    print(s)
+
+    data=Seller.objects.get(name=s)
+    if request.method =="POST":
+        return render(request,'recommendations/seller.html',{'data':data})
     return HttpResponse("this is seller details:")
 
 

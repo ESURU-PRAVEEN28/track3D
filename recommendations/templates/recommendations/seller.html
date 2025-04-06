@@ -1,0 +1,110 @@
+{% extends 'master.html'%}
+{% load static %}
+{% block title %}<title>Home</title>{% endblock %}
+
+{% block content %}
+
+<div class="container">
+<div class="heading">
+  <h1 style="color:snow">Seller Name:{{data.name}}</h1>
+  </div>
+<div class="pre">
+  <h1>Details</h1>
+    <h3><b>Contact Details:</b>  <i>{{data.contact_info}}</i></h3>
+    <h3>Company Details:  <i>{{data.company}}</i></h3>
+    <h3>{{data.details}}</h3>
+
+</div>
+    </div>
+
+<style>
+
+    /* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Style the body */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+
+}
+
+/* Heading section */
+.heading {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+/* Border styling and spacing for 'pre' container */
+.pre {
+    background-color: #fff;
+    padding: 20px;
+    margin-top: 20px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Add borders to individual h3 elements */
+.pre h3 {
+    border-bottom: 1px solid #ccc;
+    padding: 10px 0;
+    margin: 5px 0;
+}
+
+/* Responsive styling */
+@media (max-width: 768px) {
+    .heading {
+        font-size: 0.75rem;
+    }
+
+    .pre {
+        padding: 15px;
+    }
+
+    .pre h3 {
+        font-size: 1rem;
+    }
+}
+
+/* For small devices, such as mobile phones */
+@media (max-width: 480px) {
+    .heading {
+        font-size: 0.5rem;
+        padding: 10px;
+    }
+
+    .pre {
+        padding: 10px;
+    }
+
+    .pre h3 {
+        font-size: 0.9rem;
+    }
+    .container{
+    margin:auto;
+        width:90%;
+    }
+}
+
+/* For large devices, enhance layout */
+@media (min-width: 1024px) {
+    .heading {
+        font-size: 1.5rem;
+        padding: 40px;
+    }
+
+    .pre {
+        padding: 30px;
+    }
+}
+
+</style>
+
+{%endblock%}
