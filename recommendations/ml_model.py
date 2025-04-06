@@ -17,7 +17,7 @@ def train_model():
 
     # Encode categorical variables
     label_encoders = {}
-    for col in ["CementQuality", "BrickQuality", "SandQuality", "IronQuality", "EnvironmentalCondition", "Seller"]:
+    for col in ["CementQuality", "BrickQuality", "SandQuality", "IronQuality", "EnvironmentalCondition", "Price"]:
         le = LabelEncoder()
         data[col] = le.fit_transform(data[col])
         label_encoders[col] = le
@@ -119,7 +119,7 @@ def retrain_model():
 
     # Encode categorical variables
     label_encoders = {}
-    for col in ["CementQuality", "BrickQuality", "SandQuality", "IronQuality", "EnvironmentalCondition", "Seller"]:
+    for col in ["CementQuality", "BrickQuality", "SandQuality", "IronQuality", "EnvironmentalCondition", "Price"]:
         le = LabelEncoder()
         data[col] = le.fit_transform(data[col])
         label_encoders[col] = le

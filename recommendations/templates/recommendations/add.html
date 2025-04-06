@@ -34,30 +34,30 @@
 
     </select>
     <label>Construction Name</label>
-    <input type="text" placeholder=" enter construction name" name="cn">
+    <input type="text" placeholder=" enter construction name" name="cn" required>
      <label>Cement Quality</label>
-    <select name="cq">
+    <select name="cq" required>
             <option value="High">High</option>
             <option value="Low">Low</option>
             <option value="Medium" >Medium</option>
         <option  selected></option>
     </select>
     <label>Brick Quality</label>
-    <select name="bq">
+    <select name="bq" required>
             <option value="High">High</option>
             <option value="Low">Low</option>
             <option value="Medium" >Medium</option>
         <option selected></option>
     </select>
     <label>Sand Quality</label>
-    <select name="sq">
+    <select name="sq" required>
             <option value="High">High</option>
             <option value="Low">Low</option>
             <option value="Medium" >Medium</option>
         <option selected></option>
     </select>
      <label>Iron Quality</label>
-    <select name="iq">
+    <select name="iq" required>
             <option value="High">High</option>
             <option value="Low">Low</option>
             <option value="Medium" >Medium</option>
@@ -65,19 +65,18 @@
     </select>
         <br>
        <label>Environmental Condition</label>
-         <select name="ec">
+         <select name="ec" required>
             <option value="tightsoil">tightsoil</option>
-            <option value="loosesoil">loosesoil</option>
+            <option value="loosesoil" selected>loosesoil</option>
             <option value="humidity" >humidity</option>
              <option value="heavyrain">heavyrain</option>
             <option value="windy">windy</option>
             <option value="Hightemp" >Hightemp</option>
-        <option selected></option>
          </select>
     <br>
     <label>Seller Details</label>
-    <select name="s">
-        <option value="AmbujaCementsLtd">AmbujaCementsLtd</option>
+    <select name="s" required>
+        <option value="AmbujaCementsLtd" selected>AmbujaCementsLtd</option>
         <option value="SupremeIndustries(forpipes&fittings)">SupremeIndustries(forpipes&fittings)</option>
         <option value="UltraTechCementLtd">UltraTechCementLtd</option>
         <option value="RamcoCementsLtd">RamcoCementsLtd</option>
@@ -97,17 +96,16 @@
         <option value="NerolacPaints">NerolacPaints</option>
         <option value="BirlaCement">BirlaCement</option>
         <option value="TataSteelLimited">TataSteelLimited</option>
-        <option selected></option>
          </select>
 
 
     <br>
     <label>Cement Price</label>
-    <input type="number" name="cp" placeholder="enter the cementprice between 200 and 500" min=200 max=500 step="10"><br>
-   <label>Brick Price</label> <input type="number" name="bp" placeholder="enter the brickprice between 20 and 50" min=20 max="50"step="10"><br>
-   <label>Sand Price</label> <input type="number" name="sp" placeholder="enter the sandprice between 200 and 500" min=200 max="500"step="10"><br>
-    <label>Iron Price</label><input type="number" name="ip" placeholder="enter the ironprice between 20000 and 50000" min="20000" max="50000"step="1000"><br>
-   <label>Price</label> <input type="number" name="p" placeholder="enter the price between 2000000 and 5000000" min=2000000 max="5000000"step="100000"><br>
+    <input type="number" name="cp" placeholder="enter the cementprice between 200 and 500" min=200 max=500 step="10" required><br>
+   <label>Brick Price</label> <input type="number" name="bp" placeholder="enter the brickprice between 20 and 50" min=20 max="50"step="10" required><br>
+   <label>Sand Price</label> <input type="number" name="sp" placeholder="enter the sandprice between 200 and 500" min=200 max="500"step="10" required><br>
+    <label>Iron Price</label><input type="number" name="ip" placeholder="enter the ironprice between 20000 and 50000" min="20000" max="50000"step="1000" required><br>
+   <label>Price</label> <input type="number" name="p" placeholder="enter the price between 2000000 and 5000000" min=2000000 max="5000000"step="100000" required><br>
 
     <button type="submit">submit</button>
 
