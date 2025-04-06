@@ -1,6 +1,7 @@
 from django.shortcuts import render, redirect
 from django.contrib.auth import authenticate, login
 from django.contrib import messages
+from django.views.decorators.csrf import csrf_exempt
 
 
 def admin_login(request):
@@ -18,7 +19,7 @@ def admin_login(request):
     return render(request, "loginpage.html")
 
 
-
+@csrf_exempt
 def adddata(request):
     if request.method == "POST":
         username1 = request.POST["username"]
