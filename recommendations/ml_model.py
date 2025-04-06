@@ -17,7 +17,7 @@ def train_model():
 
     # Encode categorical variables
     label_encoders = {}
-    for col in ["CementQuality", "BrickQuality", "SandQuality", "IronQuality", "EnvironmentalCondition", "Price"]:
+    for col in ["CementQuality", "BrickQuality", "SandQuality", "IronQuality", "EnvironmentalCondition"]:
         le = LabelEncoder()
         data[col] = le.fit_transform(data[col])
         label_encoders[col] = le
@@ -108,56 +108,63 @@ def retrain_model():
     # Load dataset
     data = pd.read_csv(DATASET_PATH)
 
-    # Ensure the necessary columns exist in the dataset
+    # Ensure required columns are present
     required_columns = [
-        "CementQuality", "BrickQuality", "SandQuality", "IronQuality", "EnvironmentalCondition",
-        "Seller", "Price"
+        "CementQuality", "BrickQuality", "SandQuality", "IronQuality",
+        "EnvironmentalCondition", "Price"
     ]
     if not all(col in data.columns for col in required_columns):
         print("Error: Missing required columns in the dataset.")
         return
 
+    # Convert Price to numeric
+    data["Price"] = pd.to_numeric(data["Price"], errors='coerce')
+    data.dropna(subset=["Price"], inplace=True)
+
     # Encode categorical variables
     label_encoders = {}
-    for col in ["CementQuality", "BrickQuality", "SandQuality", "IronQuality", "EnvironmentalCondition", "Price"]:
+    for col in ["CementQuality", "BrickQuality", "SandQuality", "IronQuality", "EnvironmentalCondition"]:
         le = LabelEncoder()
-        data[col] = le.fit_transform(data[col])
+        data[col] = le.fit_transform(data[col].astype(str))
         label_encoders[col] = le
 
     # Features & Target
     X = data[["CementQuality", "BrickQuality", "SandQuality", "IronQuality", "EnvironmentalCondition"]]
     y = data["Price"]
 
-    # Split Data
+    # Train/Test Split
     X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)
 
     # Train Model
     model = RandomForestRegressor(n_estimators=100, random_state=42)
     model.fit(X_train, y_train)
 
-    # Save Model & Encoders
+    # Save model and encoders
     joblib.dump(model, MODEL_PATH)
     joblib.dump(label_encoders, ENCODERS_PATH)
 
     print("Model retrained and saved.")
 
 
+
 def predict_price(cement_quality, brick_quality, sand_quality, iron_quality, env_condition):
-    # Load model & encoders
     model = joblib.load(MODEL_PATH)
     label_encoders = joblib.load(ENCODERS_PATH)
 
-    # Encode categorical inputs
-    cement_quality = label_encoders["CementQuality"].transform([cement_quality])[0]
-    brick_quality = label_encoders["BrickQuality"].transform([brick_quality])[0]
-    sand_quality = label_encoders["SandQuality"].transform([sand_quality])[0]
-    iron_quality = label_encoders["IronQuality"].transform([iron_quality])[0]
-    env_condition = label_encoders["EnvironmentalCondition"].transform([env_condition])[0]
+    try:
+        features = [
+            label_encoders["CementQuality"].transform([cement_quality])[0],
+            label_encoders["BrickQuality"].transform([brick_quality])[0],
+            label_encoders["SandQuality"].transform([sand_quality])[0],
+            label_encoders["IronQuality"].transform([iron_quality])[0],
+            label_encoders["EnvironmentalCondition"].transform([env_condition])[0],
+        ]
+    except ValueError as e:
+        print(f"Prediction error: {e}")
+        return None
 
-    # Predict
-    predicted_price = model.predict([[cement_quality, brick_quality, sand_quality, iron_quality, env_condition]])
-
-    return round(predicted_price[0], 2)
+    predicted_price = model.predict([features])[0]
+    return round(predicted_price, 2)
 
 
 # if __name__ == "__main__":
