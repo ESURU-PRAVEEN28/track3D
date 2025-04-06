@@ -15,6 +15,7 @@ class Seller(models.Model):
     name = models.CharField(max_length=200)
     contact_info = models.CharField(max_length=300, blank=True, null=True)
     company = models.CharField(max_length=200, blank=True, null=True)
+    details= models.TextField(blank=True,null=True,default="No details Provided")
 
     def __str__(self):
         return self.name

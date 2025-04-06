@@ -1,0 +1,70 @@
+{% extends 'master.html'%}
+{% load static %}
+{% block title %}<title>Home</title>{% endblock %}
+
+{% block content %}
+
+
+<div class="heading">
+  <h1 style="color:snow">Environmental Condition:{{data.condition}}</h1>
+  </div>
+<div class="pre">
+  <h1>Precautions</h1>
+  <h3>{{data.precations}}</h3>
+  <form method="post" action="{%url 'environ_details'%}">
+    {% csrf_token %}
+    <button type="submit">Environmental Condition details</button>
+  </form>
+</div>
+
+
+<style>
+<style>
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  flex-direction: column;
+  background-color: #f8f8f8;
+  box-sizing: border-box;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  width: 85%;
+  max-width: 1200px;
+}
+
+.heading,
+.pre {
+
+  width: 85%;
+  text-align: center;
+  margin:auto;
+}
+
+form {
+  margin-top: 20px;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  color:white;
+  background-color:red;
+  border-radius: 10px;
+}
+
+
+</style>
+</style>
+
+
+{%endblock%}

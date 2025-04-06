@@ -2,6 +2,8 @@ from django.shortcuts import render
 
 # Create your views here.
 from django.shortcuts import render,HttpResponse
+from django.views.decorators.http import condition
+
 from .ml_model import predict_price,add_new_data,retrain_model
 from django.views.decorators.csrf import csrf_exempt
 from con_app.models import Construction, EnvironmentalCondition, Seller
@@ -103,8 +105,20 @@ def add(request):
     return render(request,'recommendations/add.html')
 
 
-
+@csrf_exempt
 def environ(request):
+    ec=request.POST.get('ec')
+    data=EnvironmentalCondition.objects.get(condition=ec)
+    print(data.precations)
+    if request.method =="POST":
+        return render(request,'recommendations/environ.html',{'data':data})
     return HttpResponse("this is about conditions")
+
+@csrf_exempt
+def environ_details(request):
+    if request.method=="POST":
+        data=EnvironmentalCondition.objects.all()
+        return render(request,'recommendations/environ_details.html',{'data':data})
+    return HttpResponse("this is a page")
 
 
